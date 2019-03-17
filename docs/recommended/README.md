@@ -34,4 +34,5 @@ I recommend [VSCode](https://code.visualstudio.com/).
 
 * [Your first Website](./first-html.md)
 * [Your first Javascript program](./first-js-program.md)
-* Optional: [A few Javascript exercises]()
+* [Reverse da String](./reverse-string.md)
+* Optional: [More Javascript exercises]()
