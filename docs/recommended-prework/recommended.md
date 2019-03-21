@@ -1,4 +1,4 @@
-# Recommended knowledge and tools
+# Recommended prework
 
 If you are already familiar with HTML, CSS and Javascript you can jump to the projects. If you can build them, no need to go over the readings.
 
@@ -7,7 +7,7 @@ If you are already familiar with HTML, CSS and Javascript you can jump to the pr
 Readings:
 
 * [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
-* [What's in the <head>?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+* [What's in the ?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
 * [Basics of Text](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
 
 ## CSS
@@ -32,7 +32,8 @@ I recommend [VSCode](https://code.visualstudio.com/).
 
 ### Projects
 
-* [Your first Website](./first-html.md)
-* [Your first Javascript program](./first-js-program.md)
-* [Reverse da String](./reverse-string.md)
+* [Your first Website](first-html.md)
+* [Your first Javascript program](first-js-program.md)
+* [Reverse da String](reverse-string.md)
 * Optional: [More Javascript exercises](https://github.com/lmuntaner/tech-introduction-product-people/blob/master/projects/prework/js-exercises.js)
+

@@ -1,4 +1,4 @@
-# Your first Javascript program
+# Your first JS Program
 
 ## Setup
 
@@ -40,7 +40,7 @@ Then copy inside it:
 console.log('Hello, world!');
 ```
 
-## Execute your script (or program)
+## Execute your script \(or program\)
 
 Open the terminal.
 
@@ -48,9 +48,9 @@ Navigate to the folder where you created your `app.js`.
 
 To do so, open the terminal, and drag the folder to it. Then press enter.
 
-*Note: You might need to write `cd` (for change directory) before dragging the folder to the terminal.*
+_Note: You might need to write_ `cd` _\(for change directory\) before dragging the folder to the terminal._
 
-To make sure you are in the folder with the file run: `ls` (or `dir`). You should see your `app.js` in the list of files.
+To make sure you are in the folder with the file run: `ls` \(or `dir`\). You should see your `app.js` in the list of files.
 
 Finally, execute your program:
 
@@ -94,3 +94,4 @@ const result = multiplyByTen(8);
 ```
 
 This script still multiplies by ten. You just won't see the result because you are not printing it.
+

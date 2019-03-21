@@ -20,7 +20,7 @@ Add the required `html` tags learned in the readings: `<!DOCTYPE html>`, `<html>
 
 Inside the `<body>` tag. Insert the following:
 
-```html
+```markup
 <div>
   <h1>Hello, world!</h1>
 </div>
@@ -32,7 +32,7 @@ Inside the `<body>` tag. Insert the following:
 
 Create an `style.css` in the same folder.
 
-Link it in the `index.html` with the `<link>` tag. *Review the readings on how to add a CSS file to your site if needed.*
+Link it in the `index.html` with the `<link>` tag. _Review the readings on how to add a CSS file to your site if needed._
 
 Add a background to the whole page.
 
@@ -68,13 +68,13 @@ This has probably just moved a little bit your text. Not much.
 
 Let's add a class to our `div` wrapping the `h1`.
 
-```html
+```markup
 <div class="container">
   <h1>Hello, world!</h1>
 </div>
 ```
 
-*This step is not strictly necessary, since we could select the `div` with a tag selector. But it's a good practice.*
+_This step is not strictly necessary, since we could select the_ `div` _with a tag selector. But it's a good practice._
 
 Make it as big as the screen:
 
@@ -97,7 +97,7 @@ Place the element inside it in the center:
 }
 ```
 
-*Careful with typos. With CSS and HTML you will not see any errors. Things might just not work because you misspelled `container` for `contaier`.*
+_Careful with typos. With CSS and HTML you will not see any errors. Things might just not work because you misspelled_ `container` _for_ `contaier`_._
 
 This should have placed your title in the middle of the screen.
 
@@ -110,11 +110,11 @@ To do this, you will need two steps:
 * Embed the font
 * Use it with CSS
 
-Go to [Google Fonts]() select one.
+Go to [Google Fonts](first-html.md) select one.
 
 Embedding means adding a `link` tag in the `head`.
 
-```html
+```markup
 <head>
   ...
   <link rel="stylesheet" href="./style.css">
@@ -138,4 +138,5 @@ Depending on the background you might want to change the color of the title. In 
 
 This is the outcome of the solution.
 
-![result](./first-html.png)
+![result](../.gitbook/assets/first-html.png)
+

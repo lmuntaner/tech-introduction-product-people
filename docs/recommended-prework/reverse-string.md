@@ -1,4 +1,4 @@
-# Reverse Da String
+# Reverse da String
 
 ## Exercises
 
@@ -12,9 +12,7 @@ For example:
 
 ## Requirements
 
-It needs to be a function.
-It has to reverse all the characters. Consider spaces as any other character.
-The function needs to return the reversed string.
+It needs to be a function. It has to reverse all the characters. Consider spaces as any other character. The function needs to return the reversed string.
 
 This is how to use your function:
 
@@ -40,7 +38,7 @@ console.log(result);
 
 Go ahead and execute this in the terminal:
 
-```shell
+```text
 node reverse.js
 ```
 
@@ -74,7 +72,7 @@ const result = reverseDaString('hello, world!');
 console.log(result);
 ```
 
-Check the `return 'hi';`. This means that we are *returning* the string `hi` from our function.
+Check the `return 'hi';`. This means that we are _returning_ the string `hi` from our function.
 
 Execute `node reverseDaString.js`
 
@@ -82,7 +80,7 @@ Therefore you will see it.
 
 ## Third step: Function parameter
 
-When we call the function, we are *passing* a specific value:
+When we call the function, we are _passing_ a specific value:
 
 ```javascript
 reverseDaString('hello, world!');
@@ -101,7 +99,7 @@ const reverseDaString = function(myString) {
 
 If you run it now, you have 2 things in the console:
 
-```shell
+```text
 hello world!
 hi
 ```
@@ -134,9 +132,8 @@ const reverseDaString = function(myString) {
 
 If you execute it now, you have:
 
-```shell
+```text
 hello world!
-
 ```
 
 We are returning an empty string.
@@ -166,3 +163,4 @@ A few tips to solve it:
 * Or check out methods on String and Array
 
 **Good luck!**
+

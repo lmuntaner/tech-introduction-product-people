@@ -32,24 +32,25 @@ There is no strong requirement to be able to read and understand the notes.
 
 However, the reader will take much more if he is already familiar with some basic concepts.
 
-[Recommended Knowledge and tools](./recommended/README.md)
+[Recommended Knowledge and tools](recommended-prework/recommended.md)
 
 Most of the recommended knowledge is about coding. A minimum of coding knowledge is required. It will make it easier for you to understand the developer.
 
-Who knows, maybe you enjoy it and become one ;)
+Who knows, maybe you enjoy it and become one ;\)
 
 ## Modules
 
 Each module consist of a set of notes related to the same topic.
 
-At the end of each module there is  hands on project.
+At the end of each module there is hands on project.
 
-* [Introduction to Computer Science]()
-* [Internet, servers and clients]()
-* [Introduction to data bases]()
-* [Networking]()
-* [Single Page Apps]()
-* [Serverless, containers and functions]()
-* [Design meets Frontend Development]()
-* [Development process]()
-* [Wrap up]()
+* [Introduction to Computer Science](./)
+* [Internet, servers and clients](./)
+* [Introduction to data bases](./)
+* [Networking](./)
+* [Single Page Apps](./)
+* [Serverless, containers and functions](./)
+* [Design meets Frontend Development](./)
+* [Development process](./)
+* [Wrap up](./)
+
