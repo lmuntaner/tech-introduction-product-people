@@ -35,4 +35,4 @@ I recommend [VSCode](https://code.visualstudio.com/).
 * [Your first Website](./first-html.md)
 * [Your first Javascript program](./first-js-program.md)
 * [Reverse da String](./reverse-string.md)
-* Optional: [More Javascript exercises]()
+* Optional: [More Javascript exercises](https://github.com/lmuntaner/tech-introduction-product-people/blob/master/projects/prework/js-exercises.js)
