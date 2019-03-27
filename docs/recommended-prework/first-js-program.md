@@ -2,9 +2,9 @@
 
 ## Setup
 
-You will first need `node` installed.
+You first need `node` installed.
 
-If you already has `node` installed, skip this step.
+If you already have `node` installed, skip this step.
 
 Otherwise, go to [nodejs.org](https://nodejs.org/en/) and follow the installation steps.
 
@@ -40,6 +40,8 @@ Then copy inside it:
 console.log('Hello, world!');
 ```
 
+[Why 'Hello, world!'?](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
+
 ## Execute your script \(or program\)
 
 Open the terminal.
@@ -58,7 +60,7 @@ Finally, execute your program:
 node app.js
 ```
 
-You should see in the screen:
+You should see the result in the screen:
 
 ```bash
 Hello, world!

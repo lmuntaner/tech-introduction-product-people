@@ -30,6 +30,8 @@ You might need a text editor for some of the exercises.
 
 I recommend [VSCode](https://code.visualstudio.com/).
 
+You can also try [Atom](https://atom.io/) or [Sublime](https://www.sublimetext.com/). Or any other if you are already familiar with text editors.
+
 ### Command Line Interface
 
 You will use the Terminal a little bit. You should get a little bit familiar with it.
@@ -45,8 +47,8 @@ Readings:
 
 ### Projects
 
-* [Your first Website](first-html.md)
-* [Your first Javascript program](first-js-program.md)
-* [Reverse da String](reverse-string.md)
+* [Your first Website](./first-html.md)
+* [Your first Javascript program](./first-js-program.md)
+* [Reverse da String](./reverse-string.md)
 * Optional: [More Javascript exercises](https://github.com/lmuntaner/tech-introduction-product-people/blob/master/projects/prework/js-exercises.js)
 

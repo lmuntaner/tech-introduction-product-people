@@ -1,6 +1,6 @@
 # Your first Website
 
-In this small project you are going to create your first page.
+In this small project you are going to create a small website.
 
 ## Setup
 
@@ -97,7 +97,7 @@ Place the element inside it in the center:
 }
 ```
 
-_Careful with typos. With CSS and HTML you will not see any errors. Things might just not work because you misspelled_ `container` _for_ `contaier`_._
+_Careful with typos. CSS and HTML never show errors. Things might just not work because you misspelled_ `container` _for_ `contaier`_._
 
 This should have placed your title in the middle of the screen.
 
@@ -134,7 +134,7 @@ body {
 
 Depending on the background you might want to change the color of the title. In the solution didn't do that.
 
-## Your first website
+## Result
 
 This is the outcome of the solution.
 
