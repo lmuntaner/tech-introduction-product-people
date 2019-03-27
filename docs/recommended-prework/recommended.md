@@ -30,6 +30,19 @@ You might need a text editor for some of the exercises.
 
 I recommend [VSCode](https://code.visualstudio.com/).
 
+### Command Line Interface
+
+You will use the Terminal a little bit. You should get a little bit familiar with it.
+
+*Windows users*
+
+* [Windows 10 Users](https://docs.microsoft.com/ca-es/windows/wsl/install-win10)
+* Or install [Cygwin](https://www.cygwin.com/)
+
+Readings:
+
+* [Linux Command Line](https://ryanstutorials.net/linuxtutorial/commandline.php). Also [next chapter](https://ryanstutorials.net/linuxtutorial/navigation.php) about navigation.
+
 ### Projects
 
 * [Your first Website](first-html.md)

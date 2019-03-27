@@ -6,7 +6,7 @@
 
 /*
 
-var words = ["Richie", "Joanie", "Greg", "Marcia", "Bobby"];
+var words = ['Richie', 'Joanie', 'Greg', 'Marcia', 'Bobby'];
 
 const checkLength = function() {}
 
@@ -29,7 +29,7 @@ console.log(maxLength === 6);
 //	|____________________________________________________________|
 // 
 // You can use 'result' variable to store the resulting letter.
-// If your code works, the last three equalities will be "true"
+// If your code works, the last three equalities will be 'true'
 // Remember and check what the operator % does!!
 // (10 % 3) => 1
 
@@ -37,8 +37,8 @@ console.log(maxLength === 6);
 /*
 
 const dniLetter = function (dni) {
-	const lookup = ["T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B",
-				  "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"];
+	const lookup = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B',
+				  'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'];
   const result = '';
   
   // Do something...
