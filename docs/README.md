@@ -44,7 +44,7 @@ Each module consist of a set of notes related to the same topic.
 
 At the end of each module there is hands on project.
 
-* [Introduction to Computer Science](/intro-cs/README.md)
+* [Introduction to Computer Science](intro-cs/README.md)
 * [Internet, servers and clients](./)
 * [Introduction to data bases](./)
 * [Networking](./)
