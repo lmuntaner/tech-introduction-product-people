@@ -8,15 +8,15 @@ The purpose of these notes is to help product people understand the environment,
 
 I have chosen specifically web development because it's probably the closest topic to most people. It is also broader enough that it can cover most of the important topics.
 
-After this reading you should be familiar with most of the concepts that you might hear managing or helping an engineering team. Except the concepts specifics to programming.
+After this reading you should be familiar with most of the concepts that you might hear managing or helping an engineering team.
 
 ## Audience
 
 People working in the tech industry without any technical background.
 
-It could be Product Managers, Product Owners, Designers, ... that work closely with an engineering team.
+Product Managers, Product Owners, Designers, ... that work closely with an engineering team.
 
-The technologies use will vary from the ones explained in these notes, but the concepts will be very similar.
+The technologies used in your team might vary from the ones explained in these notes, but the concepts will be very similar.
 
 ## This is NOT
 
@@ -30,7 +30,7 @@ This is NOT a deep dive in any technical concept.
 
 There is no strong requirement to be able to read and understand the notes.
 
-However, the reader will take much more if he is already familiar with some basic concepts.
+However, the reader will get much more if he is already familiar with some basic concepts.
 
 [Recommended Knowledge and tools](recommended-prework/recommended.md)
 
@@ -44,7 +44,7 @@ Each module consist of a set of notes related to the same topic.
 
 At the end of each module there is hands on project.
 
-* [Introduction to Computer Science](./)
+* [Introduction to Computer Science](./intro-cs/README.md)
 * [Internet, servers and clients](./)
 * [Introduction to data bases](./)
 * [Networking](./)

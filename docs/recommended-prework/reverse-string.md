@@ -23,7 +23,7 @@ console.log(result); // this should print '!dlrow ,olleh'
 
 What follows now is a set of recommended steps to start solving the problem.
 
-If you are confident that you already know how to tackle the problem. Go ahead and solve it without reading further.
+If you are confident to tackle the problem right now, go ahead and solve it without reading further.
 
 ## First step: Setup the requirements
 
@@ -59,7 +59,7 @@ If you run it now you don't have any errors. However, you don't see anything pri
 
 I recommend reading [this](https://codeburst.io/javascript-functions-understanding-the-basics-207dbf42ed99) article if you are not comfortable yet with the functions.
 
-In this step we are going to return something from our function. Which in turn will be printed back to us for the `console.log` after the call the the function.
+In this step we are going to return something from our function. Which in turn will be printed back to us for the `console.log` after the calling the function.
 
 Go ahead and try this:
 
@@ -75,8 +75,6 @@ console.log(result);
 Check the `return 'hi';`. This means that we are _returning_ the string `hi` from our function.
 
 Execute `node reverseDaString.js`
-
-Therefore you will see it.
 
 ## Third step: Function parameter
 
@@ -145,13 +143,15 @@ console.log(result);
 
 Remember that `result` will hold the value returned by our function. In this case an empty string.
 
-What happens if we print an empty string? Exactly, we get an empty string.
+What happens if we print an empty string?
+
+Exactly, we get an empty string.
 
 ## Fifth step: and forward
 
 Now it's your turn to solve the problem.
 
-The steps were some help to setup. But not to actually solve the problem.
+The steps were to help with the setup, not to actually solve the problem.
 
 Part of the learning and "fun" is struggling to solve and understand things.
 
@@ -163,4 +163,3 @@ A few tips to solve it:
 * Or check out methods on String and Array
 
 **Good luck!**
-
