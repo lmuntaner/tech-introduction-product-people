@@ -11,6 +11,7 @@
 
 ## Introduction to Computer Science
 
+* [Introduction to CS](intro-cs/README.md)
 * [Computers](intro-cs/computers.md)
 * [Software, OS, programs and Libraries](intro-cs/software.md)
 * [Programming Languages](intro-cs/languages.md)
