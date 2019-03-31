@@ -6,55 +6,59 @@ What we call Software are the collection of instructions that are executed in a 
 
 Example of software are operating systems, computer programs and libraries.
 
-Software is written in a specific programming language by a human. This then gets "translated" to a set of instructions for the machine.
+Software is written in a specific programming language by a human. This language gets "translated" later to a set of instructions for the machine.
 
 ## Operating Systems
 
 It is the software that manages the hardware and other software resources. It provides common services for computer programs.
 
+![OS Layers](./assets/OS-layers.png)
+
 The layer between the hardware and the software that other people develop.
 
-![OS Layers](https://upload.wikimedia.org/wikipedia/commons/8/87/Operating_system_placement_%28software%29.svg)
+Examples of Operating Systems are: Windows, MacOS, Ubuntu and MS-DOS.
 
-Examples of OS: Windows, MacOS, Ubuntu and MS-DOS
+### OS Interface
 
-### Interface
-
-A user can interact with the OS, with different interfaces
+A user can interact with the OS using different interfaces.
 
 * A GUI or Graphical User Interface. Most common way for most people.
 * The Terminal. Text and command way of navigating and performing actions.
 
-The Terminal is used a lot for developers to perform a wide set of tasks. From navigatingn folders to starting up a server.
+The Terminal is used a lot for developers to perform a wide variety of tasks. From navigating folders to starting up a server.
 
 ## Computer Program
 
-Software that performs a very specific task. For example a Chrome, Excel, Skype, ...
+Software that performs a task. For example Chrome, Excel, Skype, ...
 
 They are also called Desktop Applications. Or in general referred to as Computer Software.
 
-These are build on top of the Operating System. Usually used by humans.
+**A Computer Program runs directly on top of the Operating System.**
 
 ## Libraries
 
-Whereas a Computer Program is meant to perform a task by a human, a library is a piece of software mean to be used by a Software Developer.
+While a computer program is meant to be used by a human, a library is a piece of software meant to be used by another software.
 
-Libraries are used to develop a Computer Program or other libraries.
+Libraries are used to develop computer programs or other libraries.
 
-It's like Lego, once you have built a house, you can use it in another place. They are the building blocks.
+Libraries are just code that someone else wrote.
 
-Unlike in Lego, libraries are extremely easy to reproduce. The developer only needs to copy paste the text.
+It's like Lego, once you have built a house, you can use it in another place. They are the building blocks of software.
+
+Unlike in Lego, libraries are extremely easy to reproduce. The developer only needs to download and use the code.
 
 ## Open Source
 
-Once a developer has created the tasks to perform a task, it could allow other developers to use his code. So that they don't need to waste time solving the same issues that he has already solved.
+It is a library available for anyone to use for free. More importantly, the code of the library is available for other developers.
 
-This piece of software available to use for anyone is called an Open Source software.
+This means that others developers can also change that piece of code. This is how a lot of big projects have been developed.
 
-Any developer uses in his daily job Open Source software at the moment.
+Someone created a library for performing some task and then more and more developers got together to add more functionality and improve the initial program.
 
-In order to build a website or a server, you might be using only one library. However, that library probably relies on many more libraries. Which in turn rely on other libraries.
+A great example of many developers working together to build a big project is [Linux](https://www.linux.org/), the family of Operating Systems.
 
-These create a set of dependencies hard to keep track of.
+(Almost) Every developer uses in his daily job Open Source software.
 
-It is amazing the amount of faith and altruism in Open Source projects. It has sometimes backfired, but the idea of stop using Open Source is not an option anymore.
+In order to build a website or a server, you might be using only one library. That library in its turn probably relies on many more libraries. Which in turn rely on other libraries. You can see how to tree of dependencies can get very big.
+
+It's amazing the amount of faith and altruism in Open Source projects. It has sometimes backfired, but the idea of stop using Open Source doesn't seem to be not an option anymore.
