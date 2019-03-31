@@ -1,27 +1,43 @@
 # Computers
 
+Let's take a look first at the computers.
+
 ## Definition
 
 Wikipedia describes a computer as:
 
 > A device that can be instructed to carry out sequences of arithmetic or logical operations automatically
 
-The definition might be a little too abstract.
+The definition might be a little too abstract. Let's break it down.
 
-The device is the hardware. Specifically:
+There are two main concepts to understand: *device* and *operations*.
 
-* Central Processing Unit or CPU, where the instructions are performed
-* Memory where information is stored
+### Device
 
-The set of operations is the software that runs in the computer.
+By *device* wikipedia means the hardware.
 
-## How does it work?
+Two pieces are the ones performing the *operations*.
+
+* The CPU or Central Processing Unit, where the instructions are performed.
+* The Memory where information can be stored.
+
+All the other hardware such as a monitor, speakers or keyboard is considered peripheral equipment.
+
+### Operations
+
+The *operations* are just the software that runs in the computer.
+
+The actual steps needed to get to the result. It can be calculating a new number, storing it somewhere for later use, etc.
+
+More technically, the [algorithm](./algos.md) to solve or perform the task.
+
+## 1s and 0s
 
 It's not a myth that computers only understand 0s and 1s. That's how ALL operations are translated into in the end.
 
 > All modern CPUs represent numbers in binary form, with each digit being represented by some two-valued physical quantity such as a "high" or "low" voltage.
 
-CPUs and Memories are HUGE set of small circuits with a few "lightbulbs" which are either ON or OFF. With these set of "lighbulbs" we can represent everything you see in a screen. From text to images.
+CPUs and Memories are a HUGE set of small circuits with "lightbulbs" which are either ON or OFF. With these set of "lighbulbs" we can represent everything you see in a screen. From text to images.
 
 ## From Binary to the real world
 
@@ -33,18 +49,20 @@ The answer is with many standards and layers of abstraction.
 
 Numbers written in the Decimal Base can be easily represented in binary.
 
-14 -> 1110
-1984 -> 11111000000
-255 -> 11111111
+* 14 -> 1110
+* 1984 -> 11111000000
+* 255 -> 11111111
 
 ### ASCII
 
-This is how computers represent text and characters in memory and in the CPU.
-
 > American Standard Code for Information Interchange, is a character encoding standard for electronic communication. ASCII codes represent text in computers.
 
-72 -> H
-33 -> !
+This is how computers represent text and characters in memory and in the CPU.
+
+A few examples of ASCII code:
+
+* 72 -> H
+* 33 -> !
 
 [List of Standard Characters](https://ascii.cl/)
 
@@ -64,17 +82,17 @@ A Byte is a unit of information. It is a set of Bits representing a binary numbe
 
 Computers used Bytes to represent a single character. That meant that you could only have 256 characters when the Bytes had only 8 Bits.
 
-Now most machines use more than 8 Bits to store characters. Allowing for a more characters than just 256.
+Now most machines use more than 8 Bits to store characters. Allowing for more characters than just 256.
 
 ## Fun fact
 
-Or in this case more of a myth.
+More of a myth than a fact.
 
-The term bug has its origin in 1947. Back then the computers worked with punch cards. The Software were punch cards with holes in it. The computer would process them and get the result of the computation.
+The term bug has its origin in 1947. Back then the computers worked with punch cards (cards with holes). The Software was a set of cards with holes in it. The computer would process them and get the result of the computation.
 
 A researcher at Harvard was working with a computer and at some point it stopped working properly.
 
-The researcher went to the computer -which was pretty big since it had to actually handle lots of punch cards- and fond that the problem was a moth -the bug-. The moth got inside the machine and was causing the computer to stop working.
+The researcher went to the computer -which was pretty big since it had to actually handle lots of punch cards- and found that the problem was a moth -the bug-. The moth got inside the machine and it crashed.
 
 ![First Bug](https://upload.wikimedia.org/wikipedia/commons/8/8a/H96566k.jpg)
 

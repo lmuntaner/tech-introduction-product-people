@@ -1,10 +1,18 @@
 # Project: Introduction to Computer Science
 
+The main outcome of this project is to understand WHERE your code is being executed.
+
+Where the code is being executed changes how you write your code and which tasks you can perform.
+
+You are going to solve a set of exercises and run them in the Terminal like in the recommended exercises.
+
+However, the next step will be to try to execute those same exercises in the browser.
+
 ## Exercises
 
-The exercises you are going to perform are [here]().
+The exercises you are going to perform are [here](../../projects/intro-cs/exercises.js).
 
-Download the file and solve them
+Download the file and solve them.
 
 ## Node Environment
 
@@ -43,6 +51,12 @@ var { DateTime } = require('luxon');
 console.log(DateTime.local());
 ```
 
+### Solve Exercises
+
+Move one to the next step after finishing the first three exercises.
+
+You should finish the rest after solving the first three in the browser.
+
 ## Browser environment
 
 Your job now is to try and execute the same file in a browser.
@@ -70,3 +84,7 @@ Something like this. Probably in red letters 😱
 > Uncaught ReferenceError: require is not defined
 
 Try to find out WHY there is the error and fix it.
+
+## Finish exercises
+
+Remember to solve the rest of exercises in both, the browser and running in the Terminal.

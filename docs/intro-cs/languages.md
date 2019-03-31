@@ -2,9 +2,9 @@
 
 ## Definition
 
-It is a human made language to write instructions for a computer.
+It's a human made language to write instructions for a computer.
 
-It is used to write Software.
+It's used to write software.
 
 Computers don't understand human language. And humans don't understand computer language.
 
@@ -14,15 +14,15 @@ It is how humans can tell computers what to do.
 
 ## Compiler
 
-Transforming one programming language into another language is called Compilation.
+The process of transforming from one programming language into another language is called Compilation.
 
 Compilers are computer programs that perform this translation.
 
-A Compiler usually translated the programming language to a machine code. They create an executable program.
+A Compiler usually translates the programming language to machine code. They create an executable file.
 
 ### Executable
 
-An executable is a file or program written in a language that the computer can understand.
+An executable is a file in the language of the computer.
 
 **Assembly language** is any low level programming language where the instructions can be understood by the computer.
 
@@ -32,55 +32,47 @@ A transpiler is more commonly known as a Compiler between two high level program
 
 Also called source-to-source compiler.
 
-For example, Typescript is transformed into Javascript
+For example, Typescript is transpiled into Javascript
 
-## Two types of classifications
+## Interpreter
 
-### Low level and High level programming languages
+Some languages do not need an executable to be run.
 
-High level programming languages have a lot of abstractions from the details of the computer it will run.
+That's because they are compiled and executed on the fly.
 
-The more abstraction the more high level is a programming language.
+This compilation and execution is performed by an **interpreter**.
+
+An interpreter is a piece of software that read, compiles and executes code.
+
+For example, all the browsers have embedded an interpreter. This interpreter is responsible for executing the Javascript code in the Website.
+
+## Two types of classifications for programming languages
+
+### Low and High level programming languages
+
+High level programming languages have a lot of abstractions. They do not care into which computer they will run on.
+
+An example of an abstraction could be memory management. In a high level language, you don't care where the computer stores the data and when or whether it needs to be cleaned or reused.
+
+The more abstractions the more high level a language.
 
 On the other hand, a low level programming language is closely related to the architecture of the computer where it is executed.
 
-An example of an abstraction could be memory management. In a high level, you do not care about where the computer stores the data, or when it needs to be cleaned or reused.
+Lower level programming languages have usually better performance than high level. However, it comes with a cost since they are more complex to write.
 
 ### Typed vs untyped languages
 
 Another type of classification of programming languages is typed vs untyped.
 
-In programming languages, different values can have different types. The type use tightly coupled with how much memory is needed to store that value. For example, if we store a number or a text, the memory allocation is different.
+In programming languages, different values can have different types. Examples of types are, `string`, `number`, `boolean`, ...
+
+The type is tightly coupled with how much memory is needed to store that value. For example, if we store a text or a boolean, the memory allocation is different. How many bits you think are needed for a `boolean`? Just 1. On for `true` and OFF for `false`.
 
 In some languages, the developer needs to specify the type of all the possible values.
 
-An example in Typescript. A typed language that transpiles to Javascript:
+Typed languages allow the devleopers to catch some errors before they are executed. They are more robust to bugs. However, they are also more cumbersom to write.
 
-```typescript
-const user: string = "Jane User";
-```
-
-The added `: string` in front of the variable tells the computer that `user` will always have a `string`.
-
-In this specific case, the value can be inferred. The developer doesn't need to tell the type of each value.
-
-However, in this case it is necessary:
-
-```typescript
-function greeter(person: string) {
-  return "Hello, " + person;
-}
-```
-
-This example is much better. It's an example of how typed languages help developer. The parameter expected in `greeter` needs to be a `string`.
-
-This means that when executing this code, if in another part of the code we do the following:
-
-```typescript
-greeter(10);
-```
-
-The computer will stop the execution and tell us that it cannot be executed. Since we are passing a `number` instead of a `string` to the function `greeter`.
+Everything comes with tradeoffs.
 
 ## Markup languages
 
@@ -88,7 +80,7 @@ HTML is not considered a programming language.
 
 HTML is a Markup language, XML is another example of a Markup language.
 
-Markup languages define the structure of some data. They don't define instructions.
+Markup languages define the structure of some data. They don't define instructions. That's why they are not considered a programming language.
 
 ### CSS
 
@@ -100,6 +92,6 @@ A Style Sheet language is used to define how to present structured data.
 
 ## Fun fact
 
-Javascript was officially called LiveScript when it was first releaser.
+Javascript was officially called LiveScript when it was first released.
 
 However, it was renamed to JavaScript in a later release. It was a marketing trick to take advantage of the hype around Java at the time.
