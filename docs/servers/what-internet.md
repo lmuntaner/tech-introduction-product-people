@@ -1,43 +1,57 @@
 # What is the Internet
 
-The Internet (contraction of interconnected network) is the global system of interconnected computer networks that use the Internet protocol suite (TCP/IP) to link devices worldwide. It is a network of networks
+The Internet is a lot of computer connected together.
 
-The internet is a massive network of networks, a networking infrastructure
+According to Wikipedia:
 
- Information that travels over the internet does so via a variety of languages known as protocols.
+> The Internet (contraction of interconnected network) is the global system of interconnected computer networks that use the Internet protocol suite (TCP/IP) to link devices worldwide.
 
- It is a global network connecting millions of computers.
-The internet is decentralized.
-Each internet computer is independent.
+It is a network of networks. Millions of computers are connected.
 
-Interesting video of the geography of internet at 2016: https://blog.telegeography.com/whats-the-difference-between-the-world-wide-web-and-the-internet
+However, they all have *agreed* on *how* to talk to each other. The *how*s are called protocols.
+
+One of the most amazing and important thing of the Internet, is that there is not a single source of data. Or a centralized computer where everything is orchestrated.
+
+Each computer is independent. They just need to be connected to this huge network using one of this protocols and that's it.
+
+[Interesting video of the geography of internet at 2016](https://blog.telegeography.com/whats-the-difference-between-the-world-wide-web-and-the-internet)
 
 ## World Wide Web
 
-the Web, is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://www.example.com/)
+The Internet is this huge network of network of computers. What we access everyday is the World Wide Web.
 
-The World Wide Web, or simply web, is a way of accessing information over the medium of the internet. It is an information-sharing model that is built on top of the internet. The web uses the HTTP protocol
+You are reading this probably through the World Wide Web (www for short).
 
-The Web is a Portion of The Internet
+The World Wide Web is a subset of all the Internet. It is a specific way of accessing information on it.
 
-The web is just one of the ways that information can be disseminated over the internet. The internet, not the web, is also used for email, which relies on SMTP, Usenet news groups, instant messaging and FTP
+Specifically, the World Wide Web uses the HTTP protocol to connect the computers together.
 
-## TCP Protocol
+In the WWW the main target was to share information. Facilitate the sharing of information among scientists what the main goal of creating the World Wide Web.
 
-Protocol: An agreed-upon format for transmitting data between two devices.
+The computers connected to the WWW have all a specific address in the form of a URL or Uniform Resource Locator.
 
-the conceptual model and set of communications protocols used in the Internet and similar computer networks. It is commonly known as TCP/IP because the foundational protocols in the suite are the Transmission Control Protocol (TCP) and the Internet Protocol (IP)
+As an example of what is NOT the WWW we have email services, which go over the protocol SMTP, or sharing of files with the protocol of FTP.
 
-funded by the United States Department of Defense through DARPA.
+## TCP/IP Protocol
 
-specifying how data should be packetized, addressed, transmitted, routed, and received
+A protocol is just a standard agreed between two devices on *how* to share the information.
 
-the layer in which all higher-level protocols, such as SMTP, FTP, SSH, HTTP, operate
+TCP/IP or Transmission Control Protocol / Internet Protocol are these foundational protocols that all the other protocols on the Internet need to follow.
 
-Hypertext Transfer Protocol (HTTP), the File Transfer Protocol (FTP), the Simple Mail Transfer Protocol (SMTP)
+Initially it was a project by the US Department of Defense through their research center DARPA.
+
+This foundations are very important. In the end, computer are connected only through cables. Physically, what can be sent though the cables is just electricity.
+
+Remember how computers only understand 1s and 0s and then through layers of standards and abstractions (ASCII, RGB, ...) they are able to show fancy things on a screen.
+
+Similarly, two computers connected to each other can only share electricity. Also 1s and 0s. However, through layers of standards and abstractions they are able to share 1s and 0s that represent text and images.
+
+An example of protocols built on top of the TCP/IP protocol are:
+
+* Hypertext Transfer Protocol (HTTP)
+* File Transfer Protocol (FTP)
+* Simple Mail Transfer Protocol (SMTP)
 
 ## Fun fact
 
-`www` was never mandatory, it was just customary: https://www.quora.com/Whats-the-technical-reason-you-needed-www-prefix-to-reach-a-website-but-it-seems-that-today-it-doesnt-matter
-
-You never did.  It was just convention at the time. We were adding hostnames for various services, such as ftp.cisco.com and mail.usc.edu and www.usc.edu just fit right in. But it was never required and usc.edu always worked, from day 1
+Adding `www` to the URLs was never mandatory, it was just customary: [Link](https://www.quora.com/Whats-the-technical-reason-you-needed-www-prefix-to-reach-a-website-but-it-seems-that-today-it-doesnt-matter)

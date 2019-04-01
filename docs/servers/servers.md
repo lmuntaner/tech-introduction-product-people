@@ -1,25 +1,34 @@
 # Servers
 
-It is a computer. Your computer could be a server.
+## What is a Server?
 
-They usually are used ONLY as servers. This is not mandatory.
+A Server is a computer connected to the Internet that will share information with the *Client to Server* model.
 
-Typical servers are database servers, file servers, mail servers, print servers, web servers, game servers, and application servers.
+It is important to understand that a server is just a computer. Any computer could be a server.
 
-Strictly speaking, the term server refers to a computer program or process (running program)
+However, the computers that are used as servers have been built specifically for that purpose. For example, they don't need a screen.
+
+There are different kind of servers: database server, file servers, print servers, web servers, ...
+
+Remember that the main job of the task of a server is to send information when requested.
+
+A server has a running program at all times *listening* for this incoming requests and sending back the information.
+
+Imagine creating a program with a `while` loop that never finishes. It's always running. This is the kind of program running on a server.
+
+*The term server is also referred to this running process.*
+
+**A server does NOT need to be connected to the Internet.** It can be connected to a company's internal network.
 
 ## Web Server
 
-A computer dedicated to running said software, that can satisfy World Wide Web client requests.
+A Web Server is a specific kind of server.
 
-processes incoming network requests over HTTP and several other related protocols.
-
-Pages delivered are most frequently HTML documents, which may include images, style sheets and scripts in addition to the text content.
-
-They might be connected to one or more Database Server. Or to other servers. In the end, it's just a computer.
+* Usually connected to the World Wide Web.
+* Processes HTTP Requests
+* Send HTML pages and everything needed to run them (CSS, images, ...)
+* Usually connected to a database server.
 
 ## Fun fact
 
-A web server is what Sir Tim Berners-Lee -considered the father of the World Wide Web- created back in 1989.
-
-https://en.wikipedia.org/wiki/Tim_Berners-Lee
+A web server is what [Sir Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) -considered the father of the World Wide Web- created back in 1989.

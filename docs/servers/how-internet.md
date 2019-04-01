@@ -1,48 +1,72 @@
-# How does it work:
+# How does the Internet work?
 
-the browser need to know the numerical IP address. DNS lookup
-1. Browser DNS cache 2. OS cache 3. Call DNS server which local router/ ISP router
+## From computer to computer
 
-browser sends a HTTP request to the web server
+Internet is this huge network of networks connected to each other. How does our computer know to which other computer ask for information?
 
-server then responds
+Everything starts with the URL.
 
-browser to render the response content as HTML
+However, the URL is the human form of the address of the computer.
 
-browser begins rendering the HTML and sends more requests
+The URLs need to be translated to a numerical address of the computer called **IP Address** (or Internet Protocol Address).
 
-## Client to server model
-
-Structure that partitions tasks or workloads between the providers of a resource or service, called servers, and service requesters, called clients
-
-A client does not share any of its resources
-
-Clients therefore initiate communication sessions with servers which await incoming requests
-
-Examples: email, networking printing, world wide web
-
-## Peer-to-peer model
-
-distributed application architecture that partitions tasks or workloads between peers. Peers are equally privileged, equipotent participants in the application.
-
-Peers make a portion of their resources, such as processing power, disk storage or network bandwidth, directly available to other network participants
-
-without the need for central coordination by servers or stable hosts.
-
-Peers are both suppliers and consumers of resources
-
-Pictures of client server model and peer 2 peer: https://en.wikipedia.org/wiki/Peer-to-peer
+Once our computer has the IP address it send a request. Then the other computer will reply with the data asked.
 
 ## DNS
 
-The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet
+The process of looking up the IP Address based on the URL is called the DNS lookup.
 
-it translates more readily memorized domain names to the numerical IP addresses
+DNS or Domain Name System is a like a huge phone book translating this URLs to IP addresses.
 
-it serves as the phone book for the Internet by translating human-friendly computer hostnames into IP addresses
+There are computers connected on the Internet whose only job is to server this information.
+
+<!-- 1. Browser DNS cache 2. OS cache 3. Call DNS server which local router/ ISP router -->
+
+## Internet connection models
+
+There are two main strategies to connect to another computer.
+
+* Client to server model. Most common.
+* Peer-to-peer model.
+
+### Client to server model
+
+In the client to server models there are different roles in the computers sharing the information.
+
+The clients request information.
+
+The servers are computers that have and share the information with the clients.
+
+![Client server](https://upload.wikimedia.org/wikipedia/commons/f/fb/Server-based-network.svg)
+
+In this strategy, the clients do not share resources nor information with the other clients or with the server.
+
+This does NOT mean that the Internet is a centralized structure, we have already said otherwise. This means that the strategy of communication among most computers follow this convention.
+
+Most computers connected to the Internet are clients, which only request data but don't share their resources.
+
+Whereas there are many other computers connected whose job is to wait for incoming requests and send the requested information to the clients.
+
+Examples of this strategy are:
+
+* World Wide Web
+* Emails
+* Printing network in a company
+
+### Peer-to-peer model
+
+In a peer-to-peer model there are no different roles for the computers connected to it.
+
+Every computer connected shares resources and data at the same time that can request them.
+
+![Peer to peer](https://upload.wikimedia.org/wikipedia/commons/3/3f/P2P-network.svg)
+
+There is not a central coordination or central power. The connected computers work together following a set of defined standards.
+
+A connected computer is called a Peer.
 
 ## Fun fact
 
-DNS started as a text file in The Stanford Research Institute.
+The DNS started as a [text file](https://en.wikipedia.org/wiki/Domain_Name_System#History) in The Stanford Research Institute. Addresses were assigned manually contacting the center by phone.
 
-Addresses were assigned manually contacting the center by phone.
+This method soon was out of control and decided to create something more scalable.
