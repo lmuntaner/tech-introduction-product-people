@@ -4,13 +4,11 @@
 
 Internet is this huge network of networks connected to each other. How does our computer know to which other computer ask for information?
 
-Everything starts with the URL.
-
-However, the URL is the human form of the address of the computer.
+Everything starts with the URL. It is the human form of the address of the computer.
 
 The URLs need to be translated to a numerical address of the computer called **IP Address** (or Internet Protocol Address).
 
-Once our computer has the IP address it send a request. Then the other computer will reply with the data asked.
+Once our computer has the IP address it sends a request. Then the other computer will reply with the data.
 
 ## DNS
 
@@ -31,7 +29,7 @@ There are two main strategies to connect to another computer.
 
 ### Client to server model
 
-In the client to server models there are different roles in the computers sharing the information.
+In the *client to server* model there are different roles.
 
 The clients request information.
 
@@ -41,7 +39,7 @@ The servers are computers that have and share the information with the clients.
 
 In this strategy, the clients do not share resources nor information with the other clients or with the server.
 
-This does NOT mean that the Internet is a centralized structure, we have already said otherwise. This means that the strategy of communication among most computers follow this convention.
+This does NOT mean that the Internet is a centralized structure. This means that the strategy of communication among most computers follow this convention.
 
 Most computers connected to the Internet are clients, which only request data but don't share their resources.
 

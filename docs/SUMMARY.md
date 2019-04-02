@@ -18,3 +18,11 @@
 * [Algorithms and Time Complexity](intro-cs/algos.md)
 * [Browsers](intro-cs/browsers.md)
 * [Project](intro-cs/project.md)
+
+## Internet, servers and clients
+
+* [Internet, servers and clients](servers/README.md)
+* [What is the Internet?](servers/what-internet.md)
+* [How does Internet work?](servers/how-internet.md)
+* [Servers](servers/servers.md)
+* [Project](servers/project)

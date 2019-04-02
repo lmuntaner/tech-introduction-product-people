@@ -6,7 +6,7 @@ A Server is a computer connected to the Internet that will share information wit
 
 It is important to understand that a server is just a computer. Any computer could be a server.
 
-However, the computers that are used as servers have been built specifically for that purpose. For example, they don't need a screen.
+However, computers that are used as servers have been built specifically for that purpose. For example, they don't need a screen.
 
 There are different kind of servers: database server, file servers, print servers, web servers, ...
 

@@ -6,7 +6,7 @@ One with only `node`. The other one with the help of a library called [Express](
 
 ## Using NodeJS
 
-To build a server using only `node` we need to require a built in library called `http`.
+To build a server using only `node` we need to require a built-in library called `http`.
 
 Create a folder for this server. In the folder create a file, for example call it `server.js`.
 
@@ -39,9 +39,7 @@ Server listening on port 8080...
 
 Take notice that the program does not finish. Not like the previous exercises, where the Terminal got back to the previous state.
 
-Now it seems as if the program hasn't finished.
-
-This is exactly what has happened. The program is still running. Waiting for HTTP requests.
+The program is still running. Waiting for HTTP requests.
 
 Open the browser and go to `http://localhost:8080/`. You should get `hello world`.
 
@@ -58,23 +56,24 @@ In a nutshell:
 * `http://localhost:8080` is the address of the server
 * `/writers` is called the *path* of the URL. It is to tell the server, what is exactly that you are looking for.
 
-I want you to be able to respond different to this different routes: `http://localhost:8080` and `http://localhost:8080/writers`.
+Implement different responses to different paths: `http://localhost:8080` and `http://localhost:8080/writers`.
 
 * `http://localhost:8080` should reply `hello world`.
 * `http://localhost:8080/writers` should reply `Don't drink!`.
 
 [Read this](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/) for some help.
 
-Also take a look at:
+Also take a look at the parameter called `request`. It has information about the request.
+
+*Hint: the path it's in `request.url`.*
+
+Try the following before `response.write`:
 
 ```javascript
-function (request, response) {
-  response.write('hello world');
-  response.end();
-}
+console.log(request.url);
 ```
 
-The parameter called `request` has information about the request. Hint: the path it's in `request.url`.
+You will see something in the Terminal where you run `node server.js`.
 
 **IMPORTANT:** After every change in the code, you need to restart your server.
 
@@ -85,8 +84,6 @@ Your job now is to create a list of writers and return it on a request to `http:
 Create an array of writers and return it when the url matches this one.
 
 Remember that this is just Javascript. You can do everything that you could do in the exercises. Loops, arrays, variables, console.logs, ...
-
-Try the following before the `response.write`: `console.log(request.url);` and you will see something in the Terminal where you run `node server.js`.
 
 You will need to create a string from this array. From the server you can ONLY return text. Not arrays or other data types.
 
@@ -100,9 +97,9 @@ Now we want to allow the client to request only 1 writer.
 
 When the client send a request here: `http://localhost:8080/writers/1` we want to return the first writer in the array.
 
-If the url is `http://localhost:8080/writers/3` then the third writer.
+When the url is `http://localhost:8080/writers/3` then the third writer.
 
-Hint: Check what happens when you do `request.url.split('/');`.
+*Hint: Check what happens when you do `request.url.split('/');`.*
 
 **REMEMBER:** After every change in the code, you need to restart your server.
 
@@ -129,3 +126,5 @@ Check how to receive data from a POST with Express [here](https://expressjs.com/
 ### Bonus: Create a new writer in node server
 
 Add the same functionality in the previous `node` server you just built.
+
+Read again [this article](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/) for some help on how to do this.
