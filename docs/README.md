@@ -45,9 +45,9 @@ Each module consist of a set of notes related to the same topic.
 At the end of each module there is hands on project.
 
 * [Introduction to Computer Science](intro-cs/README.md)
-* [Internet, servers and clients](./)
-* [Introduction to data bases](./)
+* [Internet, servers and clients](servers/README.md)
 * [Networking](./)
+* [Introduction to data bases](./)
 * [Single Page Apps](./)
 * [Serverless, containers and functions](./)
 * [Design meets Frontend Development](./)
