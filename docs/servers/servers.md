@@ -1,6 +1,6 @@
 # Servers
 
-## What is a Server?
+## What is a Server
 
 A Server is a computer connected to the Internet that will share information with the *Client to Server* model.
 
