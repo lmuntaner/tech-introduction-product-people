@@ -8,7 +8,7 @@ It is a format to exchange information.
 
 It is used in the *client-server* architecture as a means of sending and receiving data.
 
-Either, in the body of a request or the body of the response.
+Either, in the body of a request or the body of a response.
 
 JSON is based in Javascript. It stands for JavaScript Object Notation.
 
@@ -18,9 +18,7 @@ Even though it is based in Javascript, you can use any programming language to w
 
 One of the main reasons for its success is the simplicity and readability.
 
-For the computers it is also very easy to parse and write.
-
-It is easy for humans to read and write. It is easy for machines to parse and generate. 
+It is easy for humans to read and write. It also is simple for machines to parse and generate. 
 
 ## Example of JSON
 

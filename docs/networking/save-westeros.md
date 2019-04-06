@@ -10,19 +10,19 @@ The interface of the game is an API. You play by sending requests to it.
 
 ## Object of the game
 
-You need to kill the Night King.
+Kill the Night King.
 
 ## Login
 
-In order to play you need to *login* the API.
+In order to play you need to *log in* the API.
 
-You need to get a token by sending a `username` and a `password` to the required endpoint:
+Get a token by sending a `username` and a `password` to the required endpoint:
 
 ```shell
 https://us-central1-gimtec-tech-notes.cloudfunctions.net/login
 ```
 
-You will need to send a `POST` request. You need to send JSON as body:
+You need to send a `POST` request with the following body:
 
 ```json
 {
@@ -31,13 +31,13 @@ You will need to send a `POST` request. You need to send JSON as body:
 }
 ```
 
-*Remember that to be able to send JSON you will need to add the proper `Content-Type` header`.*
+*Remember that to be able to send JSON you will need to add the proper `Content-Type` header.*
 
-You will be provided a user or just ask for one by contacting the me.
+You will be provided a user or just ask for one by contacting me.
 
 ### Login Response
 
-In the response of the login you fill find some information already.
+In the response of the login you fill find some information.
 
 ```json
 {
@@ -47,19 +47,21 @@ In the response of the login you fill find some information already.
 }
 ```
 
-You will have the token needed to play. You need to include it in every request you do.
+You have the token needed to play. Remember to include it in every request you do.
 
-The header name is `Authorization` and the value is just the token received.
+The header name is `Authorization` and the value is the token received.
 
-You also have where does Daenerys start her quest.
+You also have information about where you start the quest.
 
 ## Getting Started
 
 Once you have the token you can start playing the game.
 
+Read until the end before start playing.
+
 ### Map
 
-Daenerys starts in a specific regions and need to move in the map to perform the challenges.
+Daenerys starts in a specific region and need to move in the map to perform the challenges.
 
 The map is more or less similar to [this](https://awoiaf.westeros.org/index.php/File:Agot_hbo_guide_map.jpg). In case you are not very familiar with the TV Show or the Books.
 
@@ -108,7 +110,7 @@ An example of response when the region has a character is:
 ```json
 {
   "region": "The North",
-  "message": "Tyrion Lannister: Question or proposal before giving you a hint"
+  "message": "Tyrion Lannister: <Some Question or proposal before giving you a hint>"
 }
 ```
 
@@ -117,13 +119,13 @@ An example of response when the region has a character is:
 You need two things:
 
 * Which movements you need to get to him. In which region is he hiding.
-* Request prerequisites. Which method, body, headers or query params you need to kill him.
+* Request prerequisites. Which method, body, headers or query parameters you need to kill him.
 
 ### Finding him
 
 To find him there is no other way than doing requests with `movements` and checking the regions until you find him.
 
-There might be some movements that take you out of the map or nowhere. The API should warn you about those.
+There might be some movements that take you out of the map or nowhere. The API will warn you about those.
 
 ### Request prerequisites
 
@@ -138,19 +140,19 @@ You need to do the right request:
 
 ### Challenges
 
-The prerequisites are giving to by solving other challenges.
+You need to gather this requirements by solving other challenges.
 
 #### Join Jon Snow
 
 When you find him, he will tell you how to join forces with him to kill The Night King.
+
+He will then give you a requirement to kill The Night King.
 
 An example is that he might tell you which query params you need to pass if you want to kill The Night King.
 
 #### Party with Tyrion
 
 Same deal. Find Tyrion. He will tell you how to party with him.
-
-Then he will give you information about how to kill the Night king.
 
 #### Borrow money from the Iron Bank
 
@@ -164,7 +166,7 @@ Good luck with that one!
 
 ## Conclusion
 
-Remember that each request is Stateless. Which means that it doesn't remember where you are.
+Remember that each request is stateless. Which means that it doesn't remember where you are.
 
 **You always start from the beginning.**
 

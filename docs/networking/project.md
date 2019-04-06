@@ -1,10 +1,8 @@
 # Project
 
-In this module there is a game to be solved.
+This module's project is a game. I hope you enjoy it.
 
-I hope you enjoy it.
-
-The game is a server API that exposes a couple of endpoints to interact with it.
+The game is an API server that exposes a couple of endpoints to interact with.
 
 You will need to send requests and read the responses to play.
 
@@ -36,4 +34,4 @@ This program would have to make a request, read the response, and based on the r
 
 THIS IS HARD!
 
-It is a good exercises to give you an idea of how to interact with a server API with code.
+It is a good exercise to give you an idea of how to interact with an API server with code.

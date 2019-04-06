@@ -4,9 +4,9 @@
 
 This was devised as a layer of security.
 
-It means that from a website hosted in a specific domin: `http://domain-a.com` you cannot access resources in another domain: `http://domain-b.com`.
+It means that from a website hosted in a specific domain: `http://domain-a.com` you cannot access resources in another domain: `http://domain-b.com`.
 
-This limitation was enforced in the browser. The browser didn't allow to retrieve information from another server than the one that gave you the initial HTML page.
+This limitation is enforced in the browser. The browser doesn't allow to retrieve information from another server than the one that gave you the initial HTML page.
 
 ## What is CORS
 

@@ -2,7 +2,7 @@
 
 ## What is GraphQL
 
-GraphQL is a query language that allows the user to specify what information does it want.
+GraphQL is a query language that allows the user to specify the information it wants to retrieve.
 
 It is an alternative to [REST](./rest.md).
 
@@ -22,7 +22,7 @@ They both are used to build API Servers.
 
 In a REST API the server exposes different endpoints: `/posts`, `/users`, ...
 
-A GraphQL API has ONLY one endpoint. This endpoint expects a query written in the GraphQL language to specify what it wants to retrieve.
+A GraphQL API has usually only one endpoint. This endpoint expects a query written in the GraphQL language to specify what it wants to retrieve.
 
 An example of the query would be:
 

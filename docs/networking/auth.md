@@ -6,7 +6,7 @@ You need to be authenticated by the server.
 
 ## How to authenticate a user
 
-Headers are used to authenticate a client.
+Headers are also used to authenticate a client.
 
 Either by using a custom or a standard header (Authorization or Cookie).
 
@@ -16,7 +16,7 @@ One simple and NOT SECURE way of doing this would be to send the email and passw
 
 Imagine a server that expects the client to send two extra headers: `email` and `password` in each request.
 
-This is technically possible, but as you can imagine not very secure and not simple either.
+This is technically possible, but not secure at all.
 
 ## Using a token
 
@@ -26,6 +26,8 @@ A token is just an unreadable string (for a human) that can be translated to inf
 
 ### Get the token
 
-This is what the login is for. In the login is the only time that the user is expected to send the password.
+This is what the login is for. The only time that the password is sent is in the login process.
 
-The response of a *login* contains a token. Which can be used in further requests to authenticate the user.
+In a typical login process the client would send a *username* and *password* as part of a POST request.
+
+The response of that request would contain a token in the body. This token can be used in further requests to authenticate the user.

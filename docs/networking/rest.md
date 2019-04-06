@@ -2,9 +2,9 @@
 
 ## Definition
 
-REST stands for Representational State Transfer. Simply put it is a set of best practices when building APIs.
+REST stands for Representational State Transfer. Simply put it is a set of best practices when building API servers.
 
-The basic idea is that the way to interact with a specific resource of entity within that API has a clear set of paths.
+The basic idea is that the way to interact with a specific resource within that API has a clear set of paths.
 
 A beginner can assume that most APIs work more or less following this set of best practices:
 
@@ -40,7 +40,7 @@ The response of the body should be either JSON or XML. Any other format is not c
 
 ## What is NOT REST
 
-Sometimes it's better to understand something by looking at what that is NOT. Via negativa.
+Sometimes it is better to understand something by looking at what that is NOT.
 
 Specially when that is a standard that you see everywhere and you can't easily find the non-standard.
 
@@ -50,7 +50,7 @@ SOAP is another set of best practices on how to structure a *client-server* rela
 
 It focuses more on exposing logic rather than resources.
 
-An example of a request to retrieve some quotations using SOAP would be to send a `POST` to `/quotations` with the following body:
+An example of a request to retrieve a recipe using SOAP would be to send a `POST` to `/recipes` with the following body:
 
 ```xml
 <?xml version = "1.0"?>
@@ -58,14 +58,14 @@ An example of a request to retrieve some quotations using SOAP would be to send 
    xmlns:SOAP-ENV = "http://www.w3.org/2001/12/soap-envelope"
    SOAP-ENV:encodingStyle = "http://www.w3.org/2001/12/soap-encoding">
 
-   <SOAP-ENV:Body xmlns:m = "http://www.xyz.org/quotations">
-      <m:GetQuotation>
-         <m:QuotationsName>MiscroSoft</m:QuotationsName>
-      </m:GetQuotation>
+   <SOAP-ENV:Body xmlns:m = "http://www.xyz.org/recipes">
+      <m:GetRecipe>
+         <m:RecipeId>apple-pie</m:RecipeId>
+      </m:GetRecipe>
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
 
 As you can see, the body is used to specify WHAT you need.
 
-The same request in a REST structure could have been a `GET` request to `/quotations/Microsoft`.
+The same request in a REST structure could have been a `GET` request to `/recipes/apple-pie`.
