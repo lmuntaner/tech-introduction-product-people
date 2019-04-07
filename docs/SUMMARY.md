@@ -31,7 +31,7 @@
 
 * [HTTP protocol](networking/http.md)
 * [Headers](networking/headers.md)
-* [AUTh](networking/auth.md)
+* [Authentication](networking/auth.md)
 * [URL](networking/url.md)
 * [JSON](networking/json.md)
 * [REST](networking/rest.md)
