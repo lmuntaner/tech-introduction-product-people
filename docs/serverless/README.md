@@ -1,6 +1,6 @@
 # Serverless, containers and functions
 
-* [Some history](./history.md)
+* [History](./history.md)
 * [Introduction to serverless](./serverless.md)
 * [Containers](./containers.md)
 * [Functions](./functions)
