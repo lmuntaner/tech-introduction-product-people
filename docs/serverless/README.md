@@ -1,7 +1,7 @@
 # Serverless, containers and functions
 
 * [History](./history.md)
-* [Introduction to serverless](./serverless.md)
+* [Virtual Machines](./vms.md)
 * [Containers](./containers.md)
 * [Functions](./functions)
 * [Comparison](./comparison.md)

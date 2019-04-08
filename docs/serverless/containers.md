@@ -2,13 +2,15 @@
 
 Containers are simlar to [VMs](./vms.md).
 
-A container also acts like a real computer. Except that it runs on top of the Operating System, instead of having its own operating system inside.
+A container also acts like a real computer. Except that it runs on top of the Operating System, instead of having its own operating system.
 
-Containerization started gaining prominence in 2014, with the introduction of [Docker](https://www.docker.com/).
+Containerization started getting popular in 2014, with the introduction of [Docker](https://www.docker.com/).
 
 A container is perfect to execute a piece of software like a server. In the container the developer has full control of the configuration and dependencies where the software will run.
 
-This creates a consistent environment for the server to run, avoiding the pain to setup a whole new environment manually everytime you need one.
+This creates a consistent environment for the server to run, avoiding the pain to setup a whole new environment manually every time you need one.
+
+Another important advantage is avoiding the possible errors that can come up when having different setup in the developer computer and the computer where the server is running.
 
 Each container runs in the same operating system but the resources are isolated. Similar to VMs.
 

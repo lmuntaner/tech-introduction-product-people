@@ -30,7 +30,7 @@ Another example of an event is uploading a file.
 
 The providers of the FaaS take care of scaling. You do not need to setup how much storage or total compute power you need.
 
-You only setup how much you want per function. The provider will replicate and scale that if there are two executions of the function at the same time.
+You only setup how much you want per function. The provider will replicate and scale that if there are more than one execution of the function at the same time.
 
 ## Cost
 
@@ -39,3 +39,7 @@ You do not pay until your function is executed.
 In most cloud computing platforms you buy the compute power and storage. It doesn't matter if you use it or not.
 
 With functions you only pay when your functions are executed. If noone comes to your website and your functions are not triggered, the cost is 0.
+
+## Fun fact
+
+![Serverless vs Servers](https://www.trek10.com/blog/img/below-the-surface.png)

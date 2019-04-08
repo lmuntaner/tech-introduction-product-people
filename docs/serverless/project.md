@@ -34,7 +34,7 @@ npm install -g firebase-tools
 
 ### Initialize Firebase SDK for Cloud Functions
 
-Login to Google:
+#### Login to Google:
 
 ```shell
 firebase login
@@ -42,11 +42,12 @@ firebase login
 
 This will authenticate your computer so that it can connect with Google Cloud.
 
+#### Initialize a functions project:
+
 Create a folder and navigate to it with the terminal.
 
-Initialize a functions project:
-
 ```
+firebase init functions
 ```
 
 Select the project you created in Firebase when prompted for it.
@@ -141,7 +142,7 @@ Go there with the browser.
 
 ### Create and deploy another function
 
-Now create and deploy a function that returns a list of writers. Similar to the project in the servers module.
+Now create and deploy a function that returns a today's date. Similar to the exercise number 2 in [Introduction to Computer Science](intro-cs/project.md).
 
 To create a new function you only need to export it following the same pattern as in `helloWorld`:
 
@@ -151,13 +152,19 @@ exports.helloWorld = functions.https.onRequest((request, response) => {
 }
 ```
 
-New one could be:
+The new function could be:
 
 ```javascript
-exports.writers = functions.https.onRequest((request, response) => {
+exports.helloWorld = functions.https.onRequest((request, response) => {
+  //...
+}
+
+exports.today = functions.https.onRequest((request, response) => {
   //...
 }
 ```
+
+You are in `node` project. You can install dependencies with `npm init` like you did in the other project.
 
 ### Optional: Deploy another function for only one writer
 
