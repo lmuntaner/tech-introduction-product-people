@@ -41,7 +41,7 @@ In the response of the login you fill find some information.
 
 ```json
 {
-  "username": "Daenerys The White",
+  "username": "Daenerys-the-white",
   "region": "The North",
   "token": "<long-token>"
 }
@@ -82,6 +82,13 @@ An example of a response is this one:
 }
 ```
 
+### Response status
+
+There are two different response when the request is successful.
+
+* **200** When you got all the information there is to have from that region
+* **202** When there are still some hidden information. For example, when there is a character and still need to give you the hint.
+
 ### Move
 
 You have 8 directions to move:
@@ -113,6 +120,10 @@ An example of response when the region has a character is:
   "message": "Tyrion Lannister: <Some Question or proposal before giving you a hint>"
 }
 ```
+
+If you receive a **202** from your request, it means that you didn't do the request properly to get the hint.
+
+When you succeed getting the hint to kill the Night King you will get a status of **200**.
 
 ## Objective of the game: Kill The Night King
 
