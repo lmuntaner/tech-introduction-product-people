@@ -6,7 +6,7 @@ Specifically in the World Wide Web using the HTTP Protocol.
 
 * [HTTP protocol](./http.md)
 * [Headers](./headers.md)
-* [AUTh](./auth.md)
+* [Authentication](./auth.md)
 * [URL](./url.md)
 * [JSON](./json.md)
 * [REST](./rest.md)

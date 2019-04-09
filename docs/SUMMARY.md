@@ -31,7 +31,7 @@
 
 * [HTTP protocol](networking/http.md)
 * [Headers](networking/headers.md)
-* [AUTh](networking/auth.md)
+* [Authentication](networking/auth.md)
 * [URL](networking/url.md)
 * [JSON](networking/json.md)
 * [REST](networking/rest.md)
@@ -40,3 +40,12 @@
 * [Introduction to GraphQL](networking/graphql.md)
 * [Project](networking/project.md)
 * [SAVE WESTEROS](networking/save-westeros.md)
+
+## Serverless, containers and functions
+
+* [History](serverless/history.md)
+* [Virtual Machines](serverless/vms.md)
+* [Containers](serverless/containers.md)
+* [Functions](serverless/functions)
+* [Comparison](serverless/comparison.md)
+* [Project](serverless/project.md)
