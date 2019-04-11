@@ -148,3 +148,11 @@ The requirements of the bookshop are as follow:
 * There are sales. The sale has a date.
 * A sale has one customer. A customer can be in many sales.
 * A sale has a book. A book can be in many sales.
+
+You can find a solution [here](../../solutions/databases/bookshop-schema.pdf).
+
+### Bonus Requirements
+
+* You can sell more than one book per sale. More than once the same book in the same sale.
+* Sale can have a discount.
+* Book prices have currencies. There can be different prices per currency.
