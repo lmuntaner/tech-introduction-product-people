@@ -1,6 +1,6 @@
-# Non Relational Data Bases
+# Non Relational Databases
 
-## WHat is a non relational database
+## Which is a non relational database
 
 Any database system that does NOT follow the relational model.
 
@@ -14,24 +14,24 @@ The popularity of NoSQL databases is closely related to the popularity and growt
 
 There are two main reasons to use a NoSQL instead of a relational database:
 
-* Fixed schema
+* Fixed vs flexible schema
 * Scalability
 
-### Fixed Schema
+### Fixed vs flexible schema
 
 As we learned, with a relational database you have a fixed schema. For example, if we want to add the age of one writer, we need to add a whole column to the table.
 
 This means that all writers will have either have the `age` property. Even though it might be empty.
 
-The is a very simple example of the lack of flexibility of relational databases.
+This is a simple example of the lack of flexibility of relational databases.
 
 ### Scalability
 
-Some (not all) NoSQL databases scale better.
+Some (not all) NoSQL databases scale better for millions of records.
 
 With the growth of popularity in web applications, these applications have grown to store millions and millions of data points.
 
-Relational databases started having problems and to take a long time to retrieve data.
+Relational databases started having problems and taking a long time to retrieve data.
 
 Some NoSQL databases were developed to better handle millions and millions of data points.
 

@@ -18,7 +18,7 @@ Go to [SQLite Browser](http://sqlitebrowser.org/), download and install the soft
 
 Open it and create your first database: `bookshop.sqlite`. Ignore the next step to *Edit table definition*.
 
-Now you have an empty database. No tables, no rows and no columns.
+Now you have an empty database. No tables, no rows, no columns.
 
 ### Create your first table
 
@@ -37,11 +37,11 @@ CREATE TABLE writers (
 
 Press *Play* to execute this statement.
 
-After creating it you should see the table in the *Database Structure*.
+After creating it you should see the table in the tab *Database Structure*.
 
 ### Drop a table
 
-If you are not happy with the table or you made some mistake, now you can remove the table with:
+If you are not happy with the table or you made some mistake, you can remove the table with:
 
 ```sql
 DROP TABLE writers;
@@ -49,7 +49,7 @@ DROP TABLE writers;
 
 ### Insert data
 
-The SQL statement clause to add some data is `INSERT INTO`:
+The SQL clause to add some data is `INSERT INTO`:
 
 ```sql
 INSERT INTO writers
@@ -79,7 +79,7 @@ VALUES
 
 ### Updating data
 
-The statement clause to update is `UPDATE`:
+The clause to update a row is `UPDATE`:
 
 ```sql
 UPDATE writers
@@ -115,15 +115,15 @@ CREATE TABLE books (
 );
 ```
 
-The statement to create the table has the same parts as any simple table, however the last row is added:
+The statement to create the table has the same parts as any simple table, except for the last row:
 
 ```sql
 FOREIGN KEY(author_id) REFERENCES writers(id)
 ```
 
-This line is defines the relationship of one column `author_id` with a column from another table `writers(id)`.
+This line defines the relationship of one column `author_id` with a column from another table `writers(id)`.
 
-Go ahead and add the books we commented in the [relational article](./relational.md).
+Go ahead and add the books we commented in the [relational article](./relational.md). Add the books in the one-to-many relationship. Not in the many-to-many relationship.
 
 ### Browse the database
 
@@ -131,7 +131,7 @@ Now you can take a look at your database in `Browse Data` tab.
 
 ## Create Schema
 
-Your task now is to define the schema. Only the schema. No need to create it in software used below.
+Your task now is to define the schema. Only the schema. No need to create it in the software used below.
 
 Either write the schema on paper or in [this](https://www.dbdesigner.net/designer) online tool
 
@@ -139,10 +139,10 @@ The schema will be the database for a bookshop.
 
 The requirements of the bookshop are as follow:
 
-* The bookshop has books. Each book has a title, a price and a ISBN.
+* The bookshop has books. Each book has a title, a price and an ISBN.
 * There are writers. Each writer has a name and birth date.
 * A book can have more than one writer. A writer can have more than one book.
-* There are categories. Such as *fiction*, *terror*, *comedy*, *romantic*, ...
+* There are book categories. The category has only a title.
 * A book can have more than one category. A category can be in more than one book.
 * The bookstore has also customers. Each customer has a name and email
 * There are sales. The sale has a date.
