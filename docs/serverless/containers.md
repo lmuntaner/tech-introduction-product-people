@@ -1,6 +1,6 @@
 # Containers
 
-Containers are simlar to [VMs](./vms.md).
+Containers are similar to [VMs](./vms.md).
 
 A container also acts like a real computer. Except that it runs on top of the Operating System, instead of having its own operating system.
 

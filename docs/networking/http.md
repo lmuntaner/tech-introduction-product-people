@@ -43,7 +43,7 @@ It has a few important parts:
 The mos common methods are.
 
 * GET. Used to retrieve information.
-* POST. Used to send data to be stored (usually in a data base).
+* POST. Used to send data to be stored (usually in a database).
 * PATCH. Used to change existing data already stored.
 * PUT. Similar to a PATCH.
 * DELETE. Used to remove some data.
@@ -96,6 +96,18 @@ The status is a number of 3 digits.
 An example of a 4xx would be that you asked for the wrong path. You have probably seen those 404 pages. This status means that what you are looking for does not exist.
 
 A 5xx happens when the request is ok, but the server had a problem. Maybe the database connection failed, or there is a bug and it crashed.
+
+### HTTPS
+
+HTTPS is an extension of the HTTP protocol that brings more security.
+
+The main difference is that the information sent through the protocol is encrypted. Which means that if a third-party intercepts a request or response, it won't be able to understand what's in there.
+
+This type of attacks are called *man-in-the-middle* attacks.
+
+HTTPS is becoming the norm rather than HTTP. In Chrome, if a website is served through HTTP it is considered as non-secure. Most search engines rank better if the website is served through HTTPS.
+
+Any concept learned about HTTP can be applied to HTTPS.
 
 ## Fun fact
 

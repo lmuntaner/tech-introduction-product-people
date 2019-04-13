@@ -48,7 +48,7 @@ At the end of each module there is hands on project.
 * [Internet, servers and clients](servers/README.md)
 * [Networking](networking/README.md)
 * [Serverless, containers and functions](networking/README.md)
-* [Introduction to data bases](databases/README.md)
+* [Introduction to databases](databases/README.md)
 * [Single Page Apps](./)
 * [Design meets Frontend Development](./)
 * [Development process](./)

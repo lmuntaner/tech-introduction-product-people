@@ -13,7 +13,7 @@ A beginner can assume that most APIs work more or less following this set of bes
 As stated in the explanation of HTTP:
 
 * GET. Used to retrieve information.
-* POST. Used to send data to be stored (usually in a data base).
+* POST. Used to send data to be stored (usually in a database).
 * PATCH. Used to send data to change an existing data already stored.
 * PUT. Similar to a PATCH.
 * DELETE. Used to remove some data alrady stored.
