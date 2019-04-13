@@ -4,6 +4,8 @@
 
 You first need `node` installed.
 
+`node` is the software needed to execute Javascript directly in your computer.
+
 If you already have `node` installed, skip this step.
 
 Otherwise, go to [nodejs.org](https://nodejs.org/en/) and follow the installation steps.

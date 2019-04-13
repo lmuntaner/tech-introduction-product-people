@@ -48,8 +48,15 @@ The Schema of a database is the list of tables with the columns and their detail
 
 For example, in the previous example we would have:
 
-* `writers`. Columns: `id` - INT, `first_name` - TEXT, `last_name` - TEXT, `nationality` - TEXT.
-* `books`. Columns: `id` - INT, `title` - TEXT, `author` - TEXT.
+* Table `writers`:
+  * `id` - INT
+  * `first_name` - TEXT
+  * `last_name` - TEXT
+  * `nationality` - TEXT
+* Table `books`:
+  * `id` - INT
+  * `title` - TEXT
+  * `author` - TEXT
 
 In the schema you can also define constraints that need to be satisfied.
 

@@ -49,7 +49,7 @@ The answer is with many standards and layers of abstraction.
 
 Numbers written in the Decimal Base can be easily represented in binary.
 
-* 14 -> 1110
+* 14 -> 1110 -> (1 * 2<sup>3</sup>) + (1 * 2<sup>2</sup>) + (1 * 2<sup>1</sup>) + (0 * 2<sup>0</sup>) = 8 + 4 + 2 + 0
 * 1984 -> 11111000000
 * 255 -> 11111111
 
@@ -77,6 +77,8 @@ Typically they are represented with 3 numbers from 0 to 255.
 ## Bits and Bytes
 
 A Bit is this basic unit of ON or OFF. With 8 Bits you can have the numbers from 0 to 255.
+
+255 is the highest number you can get with 8 digits using the binary system.
 
 A Byte is a unit of information. It is a set of Bits representing a binary number. Historically a Byte was a set of 8 Bits.
 
