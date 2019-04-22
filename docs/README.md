@@ -49,8 +49,7 @@ At the end of each module there is hands on project.
 * [Networking](networking/README.md)
 * [Serverless, containers and functions](networking/README.md)
 * [Introduction to databases](databases/README.md)
-* [Single Page Apps](./)
+* [Single Page Apps](spa/README.md/)
 * [Design meets Frontend Development](./)
-* [Development process](./)
+* [Development process](./) EXPLAIN TESTING, Continuous integration, git
 * [Wrap up](./)
-
