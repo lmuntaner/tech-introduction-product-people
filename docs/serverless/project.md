@@ -142,7 +142,7 @@ Go there with the browser.
 
 ### Create and deploy another function
 
-Now create and deploy a function that returns a today's date. Similar to the exercise number 2 in [Introduction to Computer Science](intro-cs/project.md).
+Now create and deploy a function that returns a today's date. Similar to the exercise number 2 in [Introduction to Computer Science](../intro-cs/project.md).
 
 To create a new function you only need to export it following the same pattern as in `helloWorld`:
 

@@ -35,7 +35,7 @@
 * [URL](networking/url.md)
 * [JSON](networking/json.md)
 * [REST](networking/rest.md)
-* [API Server](networking/apis)
+* [API Server](networking/apis.md)
 * [CORS](networking/cors.md)
 * [Introduction to GraphQL](networking/graphql.md)
 * [Project](networking/project.md)
@@ -46,7 +46,7 @@
 * [History](serverless/history.md)
 * [Virtual Machines](serverless/vms.md)
 * [Containers](serverless/containers.md)
-* [Functions](serverless/functions)
+* [Functions](serverless/functions.md)
 * [Comparison](serverless/comparison.md)
 * [Project](serverless/project.md)
 

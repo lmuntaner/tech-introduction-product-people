@@ -53,7 +53,7 @@ The mos common methods are.
 
 The functionality of the method is not a technical limitation. The developer creating a server could choose POST requests to read information instead of using GET.
 
-These are more best practices than actual requirements. More in the [REST notes](./rest).
+These are more best practices than actual requirements. More in the [REST notes](./rest.md).
 
 ### Request Body
 
@@ -77,7 +77,7 @@ The response has the main following parts:
 
 This part is usually ths most important part of the response. Is what the client is actually expecting.
 
-It could be an HTML file, an image or data in [json](./json) format.
+It could be an HTML file, an image or data in [json](./json.md) format.
 
 ### Status
 

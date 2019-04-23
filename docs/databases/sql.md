@@ -30,4 +30,4 @@ A query is the most common statement. It is a statement to read data.
 
 More on SQL syntax in [this](https://en.wikipedia.org/wiki/SQL_syntax) wikpedia article.
 
-You are going to learn SQL by doing in the first part of the [project](./project).
+You are going to learn SQL by doing in the first part of the [project](./project.md).
