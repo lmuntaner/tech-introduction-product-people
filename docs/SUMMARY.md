@@ -25,7 +25,7 @@
 * [What is the Internet?](servers/what-internet.md)
 * [How does Internet work?](servers/how-internet.md)
 * [Servers](servers/servers.md)
-* [Project](servers/project)
+* [Project](servers/project.md)
 
 ## Networking
 

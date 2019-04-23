@@ -7,4 +7,4 @@ The project of this module is to create a server.
 * [What is the Internet?](./what-internet.md)
 * [How does Internet work?](./how-internet.md)
 * [Servers](./servers.md)
-* [Project](./web-server.md)
+* [Project](./project.md)
