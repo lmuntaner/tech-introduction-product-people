@@ -2,19 +2,19 @@
 
 ## What is rendering
 
-In a SPA we call *rendering* the process of creating the HTML page that the user eventually sees.
+In a SPA, we call *rendering* the process of creating the HTML page that the user eventually sees.
 
 Recall that the html in SPAs start with an empty `<div>`. At some point of the execution of the Javascript code, there will be the rendering process.
 
-The rendering process is usually discussed for SPAs. However, we can consider Multi Page Applications as using either Server Side rendering or Runtime rendering.
+The rendering process explained here is regarding SPAs.
+
+We can consider Multi Page Applications as using either Server Side rendering or Runtime rendering.
 
 ## Client Side rendering
 
-This is when the rendering process happens already in the client.
+This is when the rendering process happens in the client. This means that the client needs to be able to execute Javascript.
 
-This means that the client needs to be able to execute Javascript.
-
-The client can be for example a browser or a crawler. Browsers have no problem executing Javascript, but crawlers might.
+The client can be a browser or a crawler. Browsers have no problem executing Javascript, crawlers might.
 
 This also means that it takes longer for the user to see the content in the page. It has to wait for it to be loaded.
 
@@ -26,7 +26,7 @@ Everything starts with the client sending a request to a server.
 
 The sever can respond with an empty HTML or create the HTML before sending it, old style.
 
-In this case, the html is populated in the server and sent to the client. Once in the client, the Javascript is also executed like in the client side rendering, but this time it only needs to synchronize with the html, not render everything.
+In **server side rendering**, the html is populated in the server and sent to the client. Once in the client, the Javascript is also executed like in the client side rendering, but this time it only needs to synchronize with the html, not render everything.
 
 A technology using this method is [NextJS](https://nextjs.org/)
 

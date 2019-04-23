@@ -22,11 +22,11 @@ Open the folder with your text editor.
 
 Go to `public/index.html`. You can see the empty `<div id="root"></div>` in the `body`. It has none of the content displayed in the browser.
 
-Try to find where the text *Edit src/App.js and save to reload.* is and change it to **React Rules**.
+Try to find where the text *"Edit src/App.js and save to reload."* is and change it to *"React Rules"*.
 
 ### VueJS Application
 
-Create a new folder for our VueJS Application.
+Create a new folder for the VueJS Application.
 
 Create the following files:
 

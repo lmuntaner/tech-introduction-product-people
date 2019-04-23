@@ -4,9 +4,9 @@
 
 SPAs and Multi Page Applications are not only different for the end user, but also during their development process.
 
-SPAs load all the javascript at once. For all the "pages" or routes. They are an application in itself.
+SPAs load -usually- all the javascript at once. For all the "pages" or routes. They are an application in itself.
 
-Frontend in SPAs is a project in itself. It's not just some Javascript in this page and that page. It is a whole application running in the browser. Similar to a Desktop application.
+The frontend part in a SPA is a project in itself. It's not just some Javascript in this page and that page. It is a whole application running in the browser. Similar to a Desktop application.
 
 The complexity of frontend development has increase with SPAs.
 
@@ -24,7 +24,7 @@ Now, [NodeJS](https://nodejs.org/en/) is used to build the javascript file that 
 
 ## Build tools
 
-Build tools are used to automate tasks. Most specifically, they are used to create the single file from the Node project that will be sent to the browser.
+Build tools are used to automate tasks. Specifically, they are used to create the single file from the Node project that will be sent to the browser.
 
 In our previous drawing, the build tool is used in the process to create the single file.
 
@@ -42,7 +42,7 @@ Examples of build toold are [Webpack](https://webpack.js.org/), [Gulp](https://g
 
 ## Frontend Frameworks
 
-Another tool that has helped manage the complexity of this new frontend applications are frameworks.
+Frontend frameworks are another tool that has helped manage the complexity of this new frontend applications.
 
 Frameworks are a set of libraries (it can also be considered one library) that work together to provide a specific functionality.
 
