@@ -74,7 +74,7 @@ console.log(result);
 
 Check the `return 'hi';`. This means that we are _returning_ the string `hi` from our function.
 
-Execute `node reverseDaString.js`
+Execute `node reverse.js`
 
 ## Third step: Function parameter
 
