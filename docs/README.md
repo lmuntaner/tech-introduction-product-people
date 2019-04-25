@@ -51,5 +51,5 @@ At the end of each module there is hands on project.
 * [Introduction to databases](databases/README.md)
 * [Single Page Apps](spa/README.md/)
 * [Design meets Frontend Development](./)
-* [Development process](./) EXPLAIN TESTING, Continuous integration, git
+* [Development process](development/README.md)
 * [Wrap up](./)
