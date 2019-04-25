@@ -14,9 +14,9 @@ Developers should work in small tasks. These tasks are always reviewed and merge
 
 This is also related to executing the tests for the project after each functionality is added to master.
 
-Some projects might not allow to merge code if the tests don't pass.
+Most projects don't allow to merge code when the tests don't pass.
 
-Some teams go further and do not allow any new functionality to be merged without new tests. This ensures that any new functionality added will have it's own tests.
+Some teams go further and do not allow any new functionality to be merged without new tests. This ensures that any new functionality added will have its own tests.
 
 ## Why CI
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Install git following [this guide](https://www.atlassian.com/git/tutorials/install-git)
+Install git following [this guide](https://www.atlassian.com/git/tutorials/install-git).
 
 Read [this](http://rogerdudler.github.io/git-guide/) git tutorial. Until *Tagging*.
 
@@ -57,7 +57,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 This is telling you that there are changes that have not been staged and cannot be committed yet.
 
-To add then run:
+To add the changes to the staging area run:
 
 ```git
 git add notes.md
@@ -146,7 +146,7 @@ Now when you run `git status` you get
 On branch hidden-data
 ```
 
-You commits now will be applied to this branch.
+Your commits will be applied to this branch.
 
 Add the following sentence `This is hidden in master` in `notes.md`.
 

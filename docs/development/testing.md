@@ -28,4 +28,6 @@ This means that we can easily execute this *testing program* to check whether ou
 
 You are using software to test another software.
 
-Usually it is the same developer that wrote the functionality that will also write the tests for that functionality. It means that the developer that wrote the code, also writes the code to test the code -Brain Exploding!-.
+Usually it is the same developer that wrote the functionality that will also write the tests for that functionality.
+
+The developer that wrote the code, also writes the code to test the code -Brain Exploding!-.

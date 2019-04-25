@@ -2,7 +2,7 @@
 
 ## Your first test
 
-We are going to use a testing framework called [Jest]()
+We are going to use a testing framework called [Jest](https://jestjs.io/)
 
 Follow the steps in the [Getting Started](https://jestjs.io/docs/en/getting-started) section. Only the first part until *Running from command line* not included.
 
@@ -24,7 +24,7 @@ Go to Github and create a new remote repository there:
 
 Follow the steps. Add a name to your repo, usually the same as the folder `git-demo`.
 
-The default checkboxes at the beginning are ok.
+Keep the defaults and continue.
 
 Now run the commands under *…or push an existing repository from the command line*.
 
@@ -35,9 +35,9 @@ git push -u origin master
 
 You need to run them from within the folder you created your repository `git-demo`.
 
-After running those commands in the terminal you will see some input. After it has finished, refresh the page you were in.
+After running those commands in the terminal you will see some input. After it has finished, refresh the page in the browser.
 
-Now, the file `notes.md` was uploaded to Github.
+The file `notes.md` was uploaded to Github.
 
 ### Team with a friend
 

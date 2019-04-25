@@ -27,4 +27,4 @@ There might be a few concepts that are not very familiar at the moment and will 
 
 ## Best Practice
 
-The best practice is to avoid changing a lot of code at once. Changes should be small so that the Code Review can be done in only some files.
+The best practice is to avoid changing a lot of code at once. Changes should be small so that the Code Review can be done in only a few files.

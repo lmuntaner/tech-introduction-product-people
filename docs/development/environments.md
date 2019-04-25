@@ -18,15 +18,15 @@ Not all the projects have all these environments.
 
 The development environment is the copy of the project where the developers work and add their changes.
 
-Most of the environment might be running in their local computer.
+In this environment the project is -usually- running in the local computer.
 
 ### Testing environment
 
-Once the changes made from the developers are finished, they need to be tried by a person.
+Once the changes made from the developers are finished, they need to be tried by a someone.
 
-This is where manual testing usually comes. A new copy of the project is created where a person will be able to check whether the project works as expected.
+This is where manual testing usually comes. A new copy of the project is created where the tester is able to check whether the project works as expected.
 
-When a problem is found a report can be made for the developer to fix it before moving on to the end users.
+When a problem is found a report can be made for the developer to fix it before moving on to the end user.
 
 This environment is also used to execute the software that will test the software.
 
@@ -34,7 +34,7 @@ This environment is also used to execute the software that will test the softwar
 
 This environment should be as similar to the end users as possible.
 
-Maybe using a copy of the production data base and the same machines and servers the end users have.
+Using a copy of the production data base and the same machines and servers the end users have.
 
 The target of this environment is not to test functionality. Rather to check that the new version works without errors in the same environment used for end users.
 
@@ -44,25 +44,25 @@ This is also a good environment to preview new features to selected customers or
 
 This is the environment where a copy of the software is running for the end users.
 
-Installing or setting up the production environment for your software is called deployment.
+Installing or setting up the production environment for your software is called **deployment**.
 
-Deployment is the most sensitive step.
+Deployment is the most sensitive step in most projects.
 
 ## Deployment
 
-Software deployment is all of the activities that make a software system available for use.
+Software deployment is all of the activities that make a software system available for use to the end user.
 
 Each project has a different set of deployment steps.
 
 ### Pre-Internet
 
-In pre-internet software deployments, deployments (and their closely related cousin, new software releases) were of necessity expensive, infrequent, bulky affairs.
+In pre-internet software deployments (and their closely related cousin, new software releases) were of necessity expensive, infrequent, bulky affairs.
 
-Releasing a CD with the software was a kind of deployment process done by some companies.
+An example of a pre-internet deployment is creating a CD with the software to install it.
 
 ### Present
 
-Thanks to Internet deployment of software is not as expensive as it used to be.
+Thanks to Internet, deployment of software is not as expensive as it used to be.
 
 There are plenty of technologies and tools to help with this process.
 
