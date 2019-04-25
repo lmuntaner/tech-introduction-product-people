@@ -68,3 +68,14 @@
 * [Current Frontend Development](spa/current-frontend.md)
 * [Rendering](spa/rendering.md)
 * [Project](spa/project.md)
+
+## Development Process
+
+* [Development process overview](development/README.md)
+* [Version Control](development/version-control.md)
+* [Testing](development/testing.md)
+* [Environment and deployment](development/environments.md)
+* [Git](development/git.md)
+* [Development Workflow](development/workflow.md)
+* [Continuous Integration](development/ci.md)
+* [Project](development/project.md)
