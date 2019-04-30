@@ -15,3 +15,7 @@ They could use those individual components to create more complex components and
 Maybe document how to build a Card, a Feed Item, ...
 
 Create the document for the client. Explaining why we chose the components that were chosen.
+
+Create a document explaining WHY you need to choose Windows 95 UI.
+
+https://github.com/arturbien/React95
