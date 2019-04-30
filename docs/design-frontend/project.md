@@ -1,21 +1,47 @@
 # Project
 
-## Component Documentation
+## Project setup
 
-use https://www.docz.site/
+You are going to write Documentation for the engineers of Windows 95!
 
-setup a project for them
+There is already a [project setup](https://github.com/lmuntaner/docz-windows95) for you.
 
-How about creating a folder with plenty of components and they need to create the documentation for them.
+Go ahead, clone the repo, read the README and run it.
 
-Or just create the documentation for some component library.
+## Introduction
 
-They could use those individual components to create more complex components and document them.
+You will be using a tool called [Docz](https://www.docz.site/) for the documentation.
 
-Maybe document how to build a Card, a Feed Item, ...
+The project uses React as a frontend framework. You will learn a little bit how to use React Components.
 
-Create the document for the client. Explaining why we chose the components that were chosen.
+```javascript
+import { Button } from '../components'
 
-Create a document explaining WHY you need to choose Windows 95 UI.
+//...
 
-https://github.com/arturbien/React95
+<Button>Click Me</Button>
+```
+
+A React Component is used as if it was an HTML tag. You have the opening `<Button>` and the closing `</Button>`.
+
+They also can have attributes. Same as an HTML tag has. In React they are called Props.
+
+## Improve documentation
+
+The components you need to document are inside the folder `components`.
+
+There is already some documentation [here](https://arturbien.github.io/React95/?path=/story/button--default).
+
+Your task is to improve that documentation.
+
+### Single Component Documentation
+
+Follow the example used in `docs/button.mdx`.
+
+There should be more examples with the different props you can use the Button with. As well as some explanations.
+
+### Document all the components
+
+You should now do the same for all the components in the folders `components`.
+
+Read the [old documentation](https://arturbien.github.io/React95/?path=/story/button--default) to help you. Sometimes you need to use the components together to make them usable.
