@@ -5,4 +5,5 @@ This module focuses on frontend. The part of an application that the final user 
 * [Single Page Application](./spa.md)
 * [Current Frontend Development](./current-frontend.md)
 * [Rendering](./rendering.md)
+* [SPA and servers](./spa-servers.md)
 * [Project](./project.md)
