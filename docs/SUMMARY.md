@@ -69,6 +69,14 @@
 * [Rendering](spa/rendering.md)
 * [Project](spa/project.md)
 
+## Design meets Frontend Development
+
+* [Design meets Frontend development](design-frontend/README.md)
+* [Style Guide](design-frontend/styleguide.md)
+* [Pattern library](design-frontend/pattern-library.md)
+* [UI Frameworks](design-frontend/ui-frameworks.md)
+* [Project](design-frontend/project.md)
+
 ## Development Process
 
 * [Development process overview](development/README.md)

@@ -10,9 +10,7 @@ Follow along the [Getting Started](https://webpack.js.org/guides/getting-started
 
 Finish all the Webpack [Getting Started](https://webpack.js.org/guides/getting-started/)
 
-## Frontend Frameworks: React and VueJS
-
-### React Application
+## React Application
 
 Create a React Application follow [these](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) guidelines.
 
@@ -24,46 +22,58 @@ Go to `public/index.html`. You can see the empty `<div id="root"></div>` in the 
 
 Try to find where the text *"Edit src/App.js and save to reload."* is and change it to *"React Rules"*.
 
-### VueJS Application
+### React: Check server response
 
-Create a new folder for the VueJS Application.
+Open the page with Chrome. Open the Dev Tools -right click and "inspect"-.
 
-Create the following files:
+Go to the *Network* Tab. Refresh the page.
 
-* `index.html`. Fill it with the expected tags: DOCTYPE, `<html>`, `<head>`.
-* `app.js`
+Check the item called *localhost*. This is the response to the first request. The HTML sent by the server.
 
-Add VueJS by adding a script tag in the `<head>` linking to the library:
+The server sends it empty. However, we can see that the page has content. This content is rendered in the client side.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-```
+This is **client side rendering**.
 
-Add a script tag linking to you `app.js` at the end of the `<body>` tag.
+![React Response](./assets/react-network.png)
 
-```html
-<script src="app.js"></script>
-```
+## NextJS Application
 
-Add inside the `<body>` but above the previous script tag.
+Follow along the getting started in the [NextJS Docs](https://nextjs.org/docs). Until *Automatic code splitting* not included.
 
-```html
-<div id="app">
-  {{ message }}
-</div>
-```
+### NextJS: Check server response
 
-Add the following in `app.js`:
+When you have `localhost:3000` do the same steps as previously to check the *Network* tab in the DevTools.
 
-```javascript
-const app = new Vue({
-  el: '#app',
-  data: {
-    message: 'Hello Vue!'
-  }
-});
-```
+You can see now how the HTML sent by the server has the same content seen in the screen.
 
-Open `index.html` with your browser.
+This is **server side rendering**.
 
-You should see `Hello Vue!` instead of what you have in your html which is `{{ message }}`.
+![React Response](./assets/nextjs-network.png)
+
+Try changing *Welcome to NextJS!* with something else and you will also see it in the response.
+
+## Gatsby Website
+
+Follow the [getting started](https://www.gatsbyjs.org/docs/quick-start) from GatsbyJS page.
+
+When prompt with *Which package manager would you like to use* choose `npm`.
+
+No need to do anything in *Access documentation for CLI commands*.
+
+### GatsbyJS: Check server response
+
+Same as before, check the response in the *Network* tab.
+
+### GatsbyJS: Check static files
+
+After running `gatsby build`, it will create the static files that need to be served to the client in the `public` folder.
+
+Open the project with a text editor and open `public/index.html`.
+
+You will see that it's kind of a mess. Search within that file for *Hi people*.
+
+As you can see, the file in the folder `public` is the same as the one received in the client.
+
+This means that the server is only sending the file inside `public`. Is not doing anything else.
+
+Creating the files with a command such as `gatsby build` is called **build time rendering**.

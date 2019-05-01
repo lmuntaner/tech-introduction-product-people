@@ -30,7 +30,7 @@ In **server side rendering**, the html is populated in the server and sent to th
 
 A technology using this method is [NextJS](https://nextjs.org/)
 
-## Runtime rendering
+## Build time rendering
 
 Another option would be to have a step before publishing your website where you build all the html pages.
 

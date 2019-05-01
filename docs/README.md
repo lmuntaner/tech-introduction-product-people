@@ -30,7 +30,7 @@ This is NOT a deep dive in any technical concept.
 
 There is no strong requirement to be able to read and understand the notes.
 
-However, the reader will get much more if he is already familiar with some basic concepts.
+However, you will get much more if you are already familiar with some basic concepts.
 
 [Recommended Knowledge and tools](recommended-prework/recommended.md)
 
@@ -50,6 +50,6 @@ At the end of each module there is hands on project.
 * [Serverless, containers and functions](networking/README.md)
 * [Introduction to databases](databases/README.md)
 * [Single Page Apps](spa/README.md/)
-* [Design meets Frontend Development](./)
+* [Design meets Frontend Development](design-frontend/README.md)
 * [Development process](development/README.md)
 * [Wrap up](./)
