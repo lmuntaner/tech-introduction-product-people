@@ -1,16 +1,16 @@
 # Project
 
-Given 2 projects:
+## Define technologies and architecture
 
-Web Application:
+You are responsible for choosing the architecture and technologies on the following project
 
-Database schema
-Server Technology. Why, which endpoints.
-Choose frontend technology. Why.
-Choose UI Framework. Why.
+### Cookbook Application
 
-Website:
+Similar to [Paprika App](https://www.paprikaapp.com/). Without the calendar functionality.
 
-CMS Models
-Choose frontend technology. Why.
-Choose UI Framework. Why.
+Define:
+
+* Database schema
+* Server with container and/or only Functions
+* Choose frontend technology. Which rendering. Why.
+* Choose UI Framework

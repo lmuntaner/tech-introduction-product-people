@@ -13,7 +13,7 @@ Setup application | yes | yes | yes | no
 Manage dependencies | yes | yes | yes | yes
 Execute task | yes | yes | yes | yes
 
-**Servelerss does NOT mean without servers.**
+**Serverless does NOT mean without servers.**
 
 It means that your team does not handle servers.
 
