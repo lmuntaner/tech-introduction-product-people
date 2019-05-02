@@ -87,3 +87,8 @@
 * [Development Workflow](development/workflow.md)
 * [Continuous Integration](development/ci.md)
 * [Project](development/project.md)
+
+## Wrap Up
+
+* [Wrap Up](wrapup/README.md)
+* [Final Project](wrapup/project.md)

@@ -1,6 +1,20 @@
 # Tech Introduction to Web Development
 
-For Product People
+## Modules
+
+Each module consist of a set of notes related to the same topic.
+
+At the end of each module there is hands on project.
+
+* [Introduction to Computer Science](intro-cs/README.md)
+* [Internet, servers and clients](servers/README.md)
+* [Networking](networking/README.md)
+* [Serverless, containers and functions](networking/README.md)
+* [Introduction to databases](databases/README.md)
+* [Single Page Apps](spa/README.md/)
+* [Design meets Frontend Development](design-frontend/README.md)
+* [Development process](development/README.md)
+* [Wrap up](wrapup/README.md)
 
 ## Purpose
 
@@ -37,19 +51,3 @@ However, you will get much more if you are already familiar with some basic conc
 Most of the recommended knowledge is about coding. A minimum of coding knowledge is required. It will make it easier for you to understand the developer.
 
 Who knows, maybe you enjoy it and become one ;\)
-
-## Modules
-
-Each module consist of a set of notes related to the same topic.
-
-At the end of each module there is hands on project.
-
-* [Introduction to Computer Science](intro-cs/README.md)
-* [Internet, servers and clients](servers/README.md)
-* [Networking](networking/README.md)
-* [Serverless, containers and functions](networking/README.md)
-* [Introduction to databases](databases/README.md)
-* [Single Page Apps](spa/README.md/)
-* [Design meets Frontend Development](design-frontend/README.md)
-* [Development process](development/README.md)
-* [Wrap up](./)
