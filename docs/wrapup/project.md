@@ -2,7 +2,7 @@
 
 ## Define technologies and architecture
 
-You are responsible for choosing the architecture and technologies on the following project
+Choose and explain why the architecture and technologies on the following project:
 
 ### Cookbook Application
 

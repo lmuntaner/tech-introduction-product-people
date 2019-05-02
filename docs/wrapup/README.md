@@ -16,4 +16,4 @@ Taking a step back and visualizing this in the context of the World Wide Web:
 
 ![Internet](./assets/internet.png)
 
-To end this module there is one [final project](./project.md).
+You still haven't finished! There is one [final project](./project.md).
