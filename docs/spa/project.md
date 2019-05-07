@@ -38,7 +38,21 @@ This is **client side rendering**.
 
 ## NextJS Application
 
-Follow along the getting started in the [NextJS Docs](https://nextjs.org/docs). Until *Automatic code splitting* not included.
+Before moving on, exit from the previous folder. You will start a whole new project now.
+
+You need to follow the *getting started* in the [NextJS Docs](https://nextjs.org/docs). However, before start you need to create a Node project.
+
+### Create a NodeJS project
+
+* Create a new folder. For example `next-js-demo`.
+* Navigate with the terminal inside that folder.
+* Run `npm init -y`.
+
+You can start with the *getting started*.
+
+### NextJS Getting Started
+
+Follow along the getting started in the NextJS Docs](https://nextjs.org/docs). Until *Automatic code splitting* not included.
 
 ### NextJS: Check server response
 
@@ -53,6 +67,8 @@ This is **server side rendering**.
 Try changing *Welcome to NextJS!* with something else and you will also see it in the response.
 
 ## Gatsby Website
+
+Before moving on, exit from the previous folder. You will start a whole new project now.
 
 Follow the [getting started](https://www.gatsbyjs.org/docs/quick-start) from GatsbyJS page.
 
