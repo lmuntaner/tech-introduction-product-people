@@ -83,7 +83,7 @@ You downloaded the git repository already connected to the one on Github.
 
 ### Work as a team
 
-Each of you will work on a different "task".
+Each of you will work on a different "task". Each of you will create a new branch and work there.
 
 #### Owner
 
