@@ -6,4 +6,5 @@ This module focuses on frontend. The part of an application that the final user 
 * [Current Frontend Development](./current-frontend.md)
 * [Rendering](./rendering.md)
 * [SPA and servers](./spa-servers.md)
+* [SPA and MPA rendering](./sap-vs-mpa.md)
 * [Project](./project.md)

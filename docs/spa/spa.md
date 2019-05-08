@@ -26,7 +26,7 @@ You can see a full refresh of the page each time. Even though the header nor the
 
 Every time that you click a link, the browser process starts again. It is as if you wrote the url in the address bar and pressed enter.
 
-These are also called Multi Page Applications. They are the traditional websites and are still the most common.
+These are also called **Multi Page Applications**. They are the traditional websites and are still the most common.
 
 ## Problems with SEO and SPAs
 

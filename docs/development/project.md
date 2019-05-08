@@ -4,6 +4,14 @@
 
 We are going to use a testing framework called [Jest](https://jestjs.io/)
 
+### Create a NodeJS project
+
+* Create a new folder. For example `next-js-demo`.
+* Navigate with the terminal inside that folder.
+* Run `npm init -y`.
+
+### Getting started
+
 Follow the steps in the [Getting Started](https://jestjs.io/docs/en/getting-started) section. Only the first part until *Running from command line* not included.
 
 *Yarn is a similar service to npm. Do not use it, when you see npm or yarn, choose npm.*
