@@ -68,7 +68,7 @@
 * [Current Frontend Development](spa/current-frontend.md)
 * [Rendering](spa/rendering.md)
 * [SPA and servers](spa/spa-servers.md)
-* [SPA and MPA rendering](spa/sap-vs-mpa.md)
+* [SPA and MPA rendering](spa/spa-vs-mpa.md)
 * [Project](spa/project.md)
 
 ## Design meets Frontend Development
