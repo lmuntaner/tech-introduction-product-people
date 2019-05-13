@@ -51,3 +51,10 @@ However, you will get much more if you are already familiar with some basic conc
 Most of the recommended knowledge is about coding. A minimum of coding knowledge is required. It will make it easier for you to understand the developer.
 
 Who knows, maybe you enjoy it and become one ;\)
+
+## Contact
+
+Contact me if you or your company are interested in this course:
+
+* [LinkedIn](https://www.linkedin.com/in/llorencmuntaner/)
+* Email: llorenc (at) gimtec.io

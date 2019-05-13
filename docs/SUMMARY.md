@@ -94,3 +94,7 @@
 
 * [Wrap Up](wrapup/README.md)
 * [Final Project](wrapup/project.md)
+
+## Contact
+
+* [Contact me](contact/README.md)
