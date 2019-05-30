@@ -49,6 +49,6 @@ Readings:
 
 * [Your first Website](./first-html.md)
 * [Your first Javascript program](./first-js-program.md)
-* [Reverse da String](./reverse-string.md)
+* [Count Da Words](./count-words.md)
 * Optional: [More Javascript exercises](https://github.com/lmuntaner/tech-introduction-product-people/blob/master/projects/prework/js-exercises.js)
 

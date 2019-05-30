@@ -1,4 +1,76 @@
-// EXERCISE 1
+// EXERCISE IS GREATER THAN FIVE
+
+// Restore the comments marks (/* */) of the previous exercises.
+// Uncomment the exercise code deleting /* and */ chars.
+// Write a function that takes a number and
+// returns true if that number is greater than five
+// and false if it's equal or lower than five
+
+/*
+
+const isGreaterThanFive = function() {}
+
+console.log(isGreaterThanFive(3)); // false
+console.log(isGreaterThanFive(30)); // true
+console.log(isGreaterThanFive(5)); // false
+
+*/
+
+// EXERCISE IS GREATER THAN
+
+// Restore the comments marks (/* */) of the previous exercises.
+// Uncomment the exercise code deleting /* and */ chars.
+// Write a function that takes two numbers and
+// returns true if the first number is greater than the second
+// and false otherwise
+
+/*
+
+const isGreaterThan = function() {}
+
+console.log(isGreaterThan(3, 5)); // false
+console.log(isGreaterThan(30, 10)); // true
+console.log(isGreaterThan(8, 8)); // false
+
+*/
+
+// EXERCISE IS GREATER THAN IN ENGLISH
+
+// Restore the comments marks (/* */) of the previous exercises.
+// Uncomment the exercise code deleting /* and */ chars.
+// Write a function that takes two numbers and
+// returns `the first number is greater` if the first number is greater than the second
+// and `the second number is greater` otherwise
+
+/*
+
+const isGreaterThanEnglish = function() {}
+
+console.log(isGreaterThanEnglish(3, 5)); // 'the second number is greater'
+console.log(isGreaterThanEnglish(30, 10)); // 'the first number is greater'
+console.log(isGreaterThanEnglish(8, 8)); // 'the second number is greater'
+
+*/
+
+// EXERCISE COUNT WORDS
+
+// Restore the comments marks (/* */) of the previous exercises.
+// Uncomment the exercise code deleting /* and */ chars.
+// Write a function that takes a string and
+// returns the number of words in it.
+// We can consider that two words are always separated by an empty space
+
+/*
+
+const countWords = function() {}
+
+console.log(countWords('hello world')); // 2
+console.log(countWords('hello cruel world')); // 3
+console.log(countWords('guide your learning through pain')); // 5
+
+*/
+
+// EXERCISE FIND LONGEST
 
 // Restore the comments marks (/* */) of the previous exercises.
 // Uncomment the exercise code deleting /* and */ chars.
@@ -15,7 +87,7 @@ console.log(longestWord === 'learning'); // true
 
 */
 
-// EXERCISE 2
+// EXERCISE TODAY
 
 // Restore the comments marks (/* */) of the previous exercises.
 // Uncomment the exercise code deleting /* and */ chars.
@@ -32,7 +104,7 @@ today(); //'Wednesday, April 24, 2019'
 
 */
 
-// EXERCISE 3
+// EXERCISE GREATER NUMBERS
 
 // Write a function that takes numbers and a minimum.
 // It returns only those numbers greater than the minimum.
@@ -50,7 +122,7 @@ console.log(largerNumbers); // [10, 15]
 */
 
 
-// EXERCISE 4
+// EXERCISE ANAGRAM
 
 // Restore the comments marks (/* */) of the previous exercises.
 // Uncomment the exercise code deleting /* and */ chars.
@@ -69,7 +141,7 @@ console.log(result); // true
 
 */
 
-// EXERCISE 5
+// EXERCISE FIZZ BUZZ
 
 // Restore the comments marks (/* */) of the previous exercises.
 // Uncomment the exercise code deleting /* and */ chars.
