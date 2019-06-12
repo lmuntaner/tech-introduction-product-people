@@ -9,7 +9,7 @@ At the end of each module there is hands on project.
 * [Introduction to Computer Science](intro-cs/README.md)
 * [Internet, servers and clients](servers/README.md)
 * [Networking](networking/README.md)
-* [Serverless, containers and functions](networking/README.md)
+* [Serverless, containers and functions](serverless/README.md)
 * [Introduction to databases](databases/README.md)
 * [Single Page Apps](spa/README.md/)
 * [Design meets Frontend Development](design-frontend/README.md)
