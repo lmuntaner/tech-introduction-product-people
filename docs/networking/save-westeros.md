@@ -110,6 +110,14 @@ You start in a specific region and need to move in the map to perform the challe
 
 The map is more or less similar to [this](https://awoiaf.westeros.org/index.php/File:Agot_hbo_guide_map.jpg). In case you are not very familiar with the TV Show or the Books.
 
+Here is a graph of the regions and how they are connected.
+
+![Regions Graph](../.gitbook/assets/westeros-graph.png)
+
+You might need to zoom in 😅
+
+The name of the line is the direction or movement. More on this later.
+
 ### Start playing
 
 By doing a GET request you can see where you are. The url to play is:
