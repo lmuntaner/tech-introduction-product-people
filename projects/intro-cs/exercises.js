@@ -157,6 +157,8 @@ const fizzBuzz = function() {}
 
 fizzBuzz(10);
 
+*/
+
 // It should print:
 // 1
 // 2
@@ -168,5 +170,3 @@ fizzBuzz(10);
 // 8
 // Fizz
 // Buzz
-
-*/

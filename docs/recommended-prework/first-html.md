@@ -139,4 +139,3 @@ Depending on the background you might want to change the color of the title. In 
 This is the outcome of the solution.
 
 ![result](../.gitbook/assets/first-html.png)
-
